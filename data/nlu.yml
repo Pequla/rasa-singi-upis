@@ -1,0 +1,73 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hej
+    - pozdrav
+    - pozz
+    - dobar dan
+    - dobro jutro
+    - dobro veče
+    - dobro vece
+    - dobardan
+    - zdravo
+    - ej
+    - sta ima
+    - haj
+
+- intent: goodbye
+  examples: |
+    - vidimo se
+    - prijatno
+    - vidimose
+    - dovidjenja
+    - dovi djenja
+    - doviđenja
+    - dovi đenja
+    - prijatan dan
+    - prijatno veče
+    - prijatno vece
+    - hvala i doviđenja
+
+- intent: affirm
+  examples: |
+    - da
+    - tako je
+    - takoje
+    - slazem se
+    - slažem se
+    - potvrđujem
+    - potvrdjujem
+    - ok
+    - d
+    - jeste
+
+- intent: deny
+  examples: |
+    - ne
+    - n
+
+- intent: mood_great
+  examples: |
+    - odlično
+    - odlicno
+    - lepo
+    - vrhunski
+    - pristojno
+    - prelepo
+
+- intent: mood_unhappy
+  examples: |
+    - dan mi je loš
+    - nisam uredu
+    - tuzan sam
+
+- intent: bot_challenge
+  examples: |
+    - da li si ti bot
+    - da li pričam sa pravom osobom
+    - da li pricam sa pravom sobom
+    - sa kime pricam
+    - da li si ti covek
+    - da li si ti čovek

@@ -1,0 +1,34 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+responses:
+  utter_greet:
+  - text: "Hej, kako ste?"
+
+  utter_cheer_up:
+  - text: "Imam nešto da te oraspoloži:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Da li Vam je to pomoglo?"
+
+  utter_happy:
+  - text: "Super, nastavite!"
+
+  utter_goodbye:
+  - text: "Doviđenja"
+
+  utter_iamabot:
+  - text: "Ja sam konverzacijski agent"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
