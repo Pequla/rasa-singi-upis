@@ -5,9 +5,10 @@ intents:
   - goodbye
   - affirm
   - deny
-  - mood_great
-  - mood_unhappy
   - bot_challenge
+  - scholarship_price
+  - same_price_per_year
+
 
 responses:
   utter_greet:
@@ -25,17 +26,15 @@ responses:
   # Odgovori na o cenama
 
   utter_scholarship_price:
-    - text: >
-        Poštovani,
+    - text: "Poštovani,<br>
         Hvala Vam na interesovanju za upis na Univerzitet Singidunum. Cene školarine za sve studijske programe možete pogledati na sledećem liku: https://singidunum.ac.rs/page/skolarine-i-tekuci-racuni
-        Za sva dodatna pitanja Vam stojimo na raspolaganju.
-        Srdačan pozdrav
+        Za sva dodatna pitanja Vam stojimo na raspolaganju.<br>
+        Srdačan pozdrav"
 
   utter_same_price_per_year:
-    - text: > 
-        Poštovani,
-        Hvala Vam na interesovanju za upis na Univerzitet Singidunum. Kada se upišete i potpišete ugovor, cena boda (ESPB) se za Vas u toku školovanja neće menjati osim ukoliko izgubite status studenta. Za upisanih 60 ESPB cenu školarine za svaki studijski program možete videti na sledećem linku: https://singidunum.ac.rs/page/skolarine-i-tekuci-racuni
-        Srdačan pozdrav
+    - text: "Poštovani,<br>
+        Hvala Vam na interesovanju za upis na Univerzitet Singidunum. Kada se upišete i potpišete ugovor, cena boda (ESPB) se za Vas u toku školovanja neće menjati osim ukoliko izgubite status studenta. Za upisanih 60 ESPB cenu školarine za svaki studijski program možete videti na sledećem linku: https://singidunum.ac.rs/page/skolarine-i-tekuci-racuni <br>
+        Srdačan pozdrav"
 
 session_config:
   session_expiration_time: 60
