@@ -10,7 +10,7 @@ rules:
     steps:
       - intent: bot_challenge
       - action: utter_iamabot
-  
+
   - rule: rule_scholarship_price
     steps:
       - intent: scholarship_price
