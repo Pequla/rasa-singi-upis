@@ -48,21 +48,6 @@ nlu:
     - ne
     - n
 
-- intent: mood_great
-  examples: |
-    - odlično
-    - odlicno
-    - lepo
-    - vrhunski
-    - pristojno
-    - prelepo
-
-- intent: mood_unhappy
-  examples: |
-    - dan mi je loš
-    - nisam uredu
-    - tuzan sam
-
 - intent: bot_challenge
   examples: |
     - da li si ti bot
@@ -71,3 +56,21 @@ nlu:
     - sa kime pricam
     - da li si ti covek
     - da li si ti čovek
+
+# Pitanja o cenama
+
+- intent: scholarship_price
+  examples: |
+    - kolika je cena školarine
+    - kolika je cena skolarine
+    - kolka je cena skolarine
+    - koliko kosta skolarina
+    - koliko košta školarina
+    - kolko kosta skolarina
+
+- intent: same_price_per_year
+  examples: |
+    - da li je cena ista za svaku upisanu godinu
+    - da li je ista cena za svaku godinu studija
+    - dali je cena ista za svaku upisanu godinu
+    - dali je ista cena za svaku godinu studija

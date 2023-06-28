@@ -1,2 +1,2 @@
 # rasa-singi-upis
-Bot za upis
+Bot za upis na Univerzitetu Singidunm

@@ -11,23 +11,24 @@ intents:
 
 responses:
   utter_greet:
-  - text: "Hej, kako ste?"
-
-  utter_cheer_up:
-  - text: "Imam nešto da te oraspoloži:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Da li Vam je to pomoglo?"
+    - text: "Kako Vam mogu pomoći?"
 
   utter_happy:
-  - text: "Super, nastavite!"
+    - text: "Super, nastavite!"
 
   utter_goodbye:
-  - text: "Doviđenja"
+    - text: "Doviđenja"
 
   utter_iamabot:
-  - text: "Ja sam konverzacijski agent"
+    - text: "Ja sam konverzacijski agent studentske službe"
+
+  # Odgovori na o cenama
+
+  utter_scholarship_price:
+    - text: "Poštovani,\nHvala Vam na interesovanju za upis na Univerzitet Singidunum. Cene školarine za sve studijske programe možete pogledati na sledećem liku: https://singidunum.ac.rs/page/skolarine-i-tekuci-racuni\nZa sva dodatna pitanja Vam stojimo na raspolaganju.\nSrdačan pozdrav"
+
+  utter_same_price_per_year:
+    - text: "Poštovani,\nHvala Vam na interesovanju za upis na Univerzitet Singidunum. Kada se upišete i potpišete ugovor, cena boda (ESPB) se za Vas u toku školovanja neće menjati osim ukoliko izgubite status studenta. Za upisanih 60 ESPB cenu školarine za svaki studijski program možete videti na sledećem linku: https://singidunum.ac.rs/page/skolarine-i-tekuci-racuni\nSrdačan pozdrav"
 
 session_config:
   session_expiration_time: 60
