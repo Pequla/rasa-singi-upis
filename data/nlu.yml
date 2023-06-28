@@ -48,6 +48,11 @@ nlu:
     - ne
     - n
 
+- intent: thanks
+  examples: |
+    - hvala
+    - hvl
+
 - intent: bot_challenge
   examples: |
     - da li si ti bot
@@ -74,3 +79,17 @@ nlu:
     - da li je ista cena za svaku godinu studija
     - dali je cena ista za svaku upisanu godinu
     - dali je ista cena za svaku godinu studija
+
+- intent: pay_in_paychecks
+  examples: |
+    - da li je moguće plaćanje na rate
+    - da li je može na rate da se plati
+
+- intent: discount_full_payout
+  examples: |
+    - da li postoji popust za plaćanje u celosti
+    - jel može na rate
+
+- intent: scholarship_includes
+  examples: |
+    - šta je sve uključeno u cenu školarine

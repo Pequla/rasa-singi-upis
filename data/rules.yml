@@ -11,6 +11,11 @@ rules:
       - intent: goodbye
       - action: utter_goodbye
 
+  - rule: rule_thanks
+    steps:
+      - intent: thanks
+      - action: utter_thanks
+
   - rule: rule_bot_challenge
     steps:
       - intent: bot_challenge
@@ -25,3 +30,18 @@ rules:
     steps:
       - intent: same_price_per_year
       - action: utter_same_price_per_year
+
+  - rule: rule_pay_in_paychecks
+    steps:
+      - intent: pay_in_paychecks
+      - action: utter_pay_in_paychecks
+
+  - rule: rule_discount_full_payout
+    steps:
+      - intent: discount_full_payout
+      - action: utter_discount_full_payout
+
+  - rule: rule_scholarship_includes
+    steps:
+      - intent: scholarship_includes
+      - action: utter_scholarship_includes
