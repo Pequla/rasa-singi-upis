@@ -1,13 +1,22 @@
 version: "3.1"
 
 rules:
+  - rule: rule_goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
 
-- rule: Say goodbye anytime the user says goodbye
-  steps:
-  - intent: goodbye
-  - action: utter_goodbye
+  - rule: rule_bot_challenge
+    steps:
+      - intent: bot_challenge
+      - action: utter_iamabot
+  
+  - rule: rule_scholarship_price
+    steps:
+      - intent: scholarship_price
+      - action: utter_scholarship_price
 
-- rule: Say 'I am a bot' anytime the user challenges
-  steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+  - rule: rule_same_price_per_year
+    steps:
+      - intent: same_price_per_year
+      - action: utter_same_price_per_year
