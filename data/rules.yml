@@ -110,12 +110,7 @@ rules:
     steps:
       - intent: admission_start
       - action: utter_admission_start
-
-  - rule: rule_admission_start
-    steps:
-      - intent: admission_start
-      - action: utter_admission_start
-
+      
   - rule: rule_admission_documentation
     steps:
       - intent: admission_documentation

@@ -12,6 +12,20 @@ intents:
   - pay_in_paychecks
   - discount_full_payout
   - scholarship_includes
+  - admission_exam_payment
+  - admission_exam_start
+  - admission_exam_submit
+  - admission_exam_look
+  - admission_exam_materials
+  - study_lenght
+  - graduation_title
+  - study_acreditation
+  - employed_student_support
+  - online_exams
+  - internship
+  - employment_help
+  - admission_start
+  - admission_documentation
 
 responses:
   utter_greet:
