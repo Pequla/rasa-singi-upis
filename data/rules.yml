@@ -54,7 +54,7 @@ rules:
   - rule: rule_admission_exam_start
     steps:
       - intent: admission_exam_start
-      - action: utter_scholarship_includes
+      - action: utter_admission_exam_start
 
   - rule: rule_admission_exam_submit
     steps:
@@ -110,7 +110,7 @@ rules:
     steps:
       - intent: admission_start
       - action: utter_admission_start
-      
+
   - rule: rule_admission_documentation
     steps:
       - intent: admission_documentation
