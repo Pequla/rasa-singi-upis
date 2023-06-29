@@ -45,3 +45,78 @@ rules:
     steps:
       - intent: scholarship_includes
       - action: utter_scholarship_includes
+
+  - rule: rule_admission_exam_payment
+    steps:
+      - intent: admission_exam_payment
+      - action: utter_admission_exam_payment
+
+  - rule: rule_admission_exam_start
+    steps:
+      - intent: admission_exam_start
+      - action: utter_scholarship_includes
+
+  - rule: rule_admission_exam_submit
+    steps:
+      - intent: admission_exam_submit
+      - action: utter_admission_exam_submit
+
+  - rule: rule_admission_exam_look
+    steps:
+      - intent: admission_exam_look
+      - action: utter_admission_exam_look
+
+  - rule: rule_admission_exam_materials
+    steps:
+      - intent: admission_exam_materials
+      - action: utter_admission_exam_materials
+
+  - rule: rule_study_lenght
+    steps:
+      - intent: study_lenght
+      - action: utter_study_lenght
+
+  - rule: rule_graduation_title
+    steps:
+      - intent: graduation_title
+      - action: utter_graduation_title
+
+  - rule: rule_study_acreditation
+    steps:
+      - intent: study_acreditation
+      - action: utter_study_acreditation
+  
+  - rule: rule_employed_student_support
+    steps:
+      - intent: employed_student_support
+      - action: utter_employed_student_support
+
+  - rule: rule_online_exams
+    steps:
+      - intent: online_exams
+      - action: utter_online_exams
+
+  - rule: rule_internship
+    steps:
+      - intent: internship
+      - action: utter_internship
+
+  - rule: rule_employment_help
+    steps:
+      - intent: employment_help
+      - action: utter_employment_help
+
+  - rule: rule_admission_start
+    steps:
+      - intent: admission_start
+      - action: utter_admission_start
+
+  - rule: rule_admission_start
+    steps:
+      - intent: admission_start
+      - action: utter_admission_start
+
+  - rule: rule_admission_documentation
+    steps:
+      - intent: admission_documentation
+      - action: utter_admission_documentation

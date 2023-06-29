@@ -57,6 +57,115 @@ responses:
         U cenu školarine su uključena predavanja, vežbe, udžbenici i kolokvijumi, dok se prijava ispita plaća dodatnih 500 dinara u redovnoj proceduri, takođe plaćaju se i ostale usluge prema važećem cenovniku koji možete pronaći na sajtu Univerziteta 
         Srdačan pozdrav"
 
+  utter_admission_exam_payment:
+    - text: "Poštovani,
+        Hvala Vam na interesovanju za upis na Univerzitet Singidunum.
+        Prijemni ispit se ne plaća za sve studijske programe osim praktičnog dela prijemnog ispita za studijski program Fizičko vaspitanje i sport. Cena ovog prijemnog ispita je 4500 dinara. 
+        Srdačan pozdrav"
+
+  utter_admission_exam_start:
+    - text: "Poštovani, 
+        Hvala Vam na interesovanju za upis na Univerzitet Singidunum.
+        Prijemni ispiti počinju u martu i traju do popune slobodnih mesta. Potrebno je da se prijavite za prijemni ipit preko naše platforme na sledećem linku: https://use.singidunum.ac.rs/account/authentication/registration 
+        Zatim ćete u povratnom mejlu dobiti parametre za pristup. Kada se uspešno ulogujete možete izabrati termin koji Vama odgovara. Za sva dodatna pitanja Vam stojimo na raspolaganju. 
+        Srdačan pozdrav"
+
+  utter_admission_exam_submit:
+    - text: "Poštovani, 
+        Hvala Vam na interesovanju za upis na Univerzitet Singidunum.
+        Kako biste se prijavili za polaganje prijemnog ispita potrebno je da popunite formu na sledećem linku: https://use.singidunum.ac.rs/account/authentication/registration 
+        Kada se uspešno prijavite preko ove forme biće Vam dostavljeni parametri za pristup profilu, na svom profilu možete odbabrati termin koji Vama najviše odgovara kao i da li želite da polažete prijemni ispit uživo na univerzitetu ili onlajn. 
+        Za sva dodatna pitanja Vam stojimo na raspolaganju. 
+        Srdačan pozdrav"
+
+  utter_admission_exam_look:
+    - text: "Poštovani,
+        Hvala Vam na interesovanju za upis na Univerzitet Singidunum.
+        U zavisnosti od studijskog programa koji ste izabrali način polaganja prijemnog ispita je istaknut na sajtu fakulteta na sledećem linku: 
+        https://singidunum.ac.rs/upis/
+        Izborom određenog programa možete videti opis i predmete koje je potrebno pripremiti. Svaki od studijskih programa u sklopu prijemnog ispita ima intervju, odnosno razgovor sa profesorom. Možete odabrati da razgovor imate uživo na fakultetu ili onlajn. Ukoliko se odlučite za opciju polaganja prijemnog ispita onlajn, dan pre odabranog termina ćemo Vam poslati link za pristup Microsoft Teams platformi preko koje ćete stupiti u kontakt sa profesorom u zakazanom terminu. Razgovori imaju za cilj da odrede Vaša interesovanja i da Vam pomognu u donošenju odluke o izboru pravog studijskog programa za Vas. 
+        Za sva dodatna pitanja Vam stojimo na raspolaganju. 
+        Srdačan pozdrav"
+
+  utter_admission_exam_materials:
+    - text: "Poštovani, 
+        Hvala Vam na interesovanju za upis na Univerzitet Singidunum.
+        Nakon prijave za upis na naš univerzitet dobili ste automatski odgovor koji sadrži pristupne parametre za našu platformu, kada se uspešno ulogujete biće potrebno da popunite formu sa Vašim ličnim podacima. Kada uspešno popunite i sačuvate ovu formu pojaviće se Vaš profil i opcija na kojoj ćete pronaći, u zavisnosti od željenog studijskog programa, testove, teze ili smernice za pripremu prijemnog ispita. 
+        Za sva dodatna pitanja Vam stojimo na raspolaganju. 
+        Srdačan pozdrav"
+
+# Opsta pitanja o studiranju
+
+  utter_study_lenght:
+    - text: "Poštovani,
+        Hvala Vam na interesovanju za upis na Univerzitet Singidunum.
+        Osnovne studije na Univerzitetu Singidunum traju četiri godine (obima 240 ESPB) uz izuzetak studijskog programa Farmacije koji predstavlja integrisane osnovne i master studije, pa u skladu sa tim traju pet godina (300 ESPB). 
+        Za sve dodatne informacije Vam stojimo na raspolaganju. 
+        Srdačan pozdrav"
+
+  utter_graduation_title:
+    - text: "Poštovani, 
+        Hvala Vam na interesovanju za upis na Univerzitet Singidunum.
+        U zavisnosti od studijskog programa koji ste odvabrali zvanje nakon završenih studija možete pronaći na sledećem linku:
+        https://singidunum.ac.rs/upis/ 
+        Za sva dodatna pitanja vam stojimo na raspolaganju.
+        Srdačan pozdrav"
+
+  utter_study_acreditation:
+    - text: "Poštovani, 
+        Hvala Vam na interesovanju za upis na Univerzitet Singidunum.
+        Svi studijski programi na Univerzitetu Singidunum su akreditovani odnosno priznati od strane Republike Srbije. Akreditacija predstavlja javni dokument koji možete pogledati na našem sajtu na sledećem linku: 
+        https://singidunum.ac.rs/page/akreditacija
+        Za sva dodatna pitanja Vam stojimo na raspolaganju. 
+        Srdačan pozdrav"
+
+  utter_employed_student_support:
+    - text: "Poštovani, 
+        Hvala Vam na interesovanju za upis na Univerzitet Singidunum.
+        Univerzitet Singidunum ima program podrške zaposlenim studentima u smislu da im omogućava da predavanja i vežbe (uslovno) prate onlajn, dok je za polaganje ispita neophodno prisustvovati na Univerzitetu. Da biste pristupili ovom programu, potrebno je da nam dostavite dokaz o zaposlenju. Više o ovoj temi možete pogledati na našem sajtu na sledećem linku: 
+        https://singidunum.ac.rs/upis/pages/podrska-zaposlenim-studentima#title 
+        Za sva dodatna pitanja Vam stojimo na raspolaganju. 
+        Srdačan pozdrav"
+
+  utter_online_exams:
+    - text: "Poštovani, 
+        Hvala Vam na interesovanju za upis na Univerzitet Singidunum.
+        U izuzetnim slučajevima je moguće odobriti proveru znanja sa udaljene lokacije , ali je i u tom slučaju neophodno lično prisustvo u nekom od narednih rokova kako bi se ocena verifikovala uz predhodnu proceduralnu prijavu ispita. 
+        Za sva dodatna pitanja Vam stojimo na raspolaganju. 
+        Srdačan pozdrav"
+
+  utter_internship:
+    - text: "Profesionalna praksa je obavezna i predviđena Nastavnim planom i programom kao deo predmeta Praktična istraživanja i poslovne veštine za sve studijske programe u trajanju od najmanje dve nedelje.                                                                       Studentima Fakulteta za turistički i hotelijerski menadžment profesionalna praksa je obavezna i predviđena Nastavnim planom i programom. Za studente III godine praksa će se organizovati u šestom semestru u trajanju od mesec dana (tokom maja). Za studente IV godine organizuje se osmom semestru u trajanju od 6 nedelja (maj-jun) i evidentira se kao deo predmeta Praktična istraživanja i poslovne veštine. Stručna praksa se može organizovati samostalno ili preko Univerziteta. Aktuelne ponude prakse mogu se pronaći na sajtu Centra za razvoj karijere."
+
+  utter_employment_help:
+    - text: "Na sajtu Centra za razvoj karijere se redovno objavljuju konkursi za posao, kao i za stručne prakse (plaćene i neplaćene) nakon kojih naši studenti neretko ostaju da rade u kompanijama. careers.singidunum.ac.rs"  
+
+  utter_admission_start:
+    - text: "Poštovani, 
+        Hvala Vam na interesovanju za upis na Univerzitet Singidunum.
+        Upis na osnovne studije počinje u junu (prema konkursu odnosno definisanim upisnim rokovima), kada dobijete srednjoškolska dokumenta i traje sve do popune slobodnih mesta. 
+        Za sva dodatna pitanja Vam stojimo na raspolaganju. 
+        Srdačan pozdrav"
+
+  utter_admission_documentation:
+    - text: "Poštovani,
+        Za upis je potrebno dostaviti:
+        Original diplomu i svedočanstva sva 4 razreda srednje škole (na uvid) i fotokopiju navedenih dokumenata (ne mora biti overena kopija). Ukoliko dokumenta srednje škole nisu na srpskom, hrvatskom, crnogorskom ili bosanskom jeziku potrebna je i kopija njihovih prevoda.
+        Kandidat koji je završio srednju školu van teritorije Republike Srbije (izuzetak Republika Srpska) ili je završio stranu školu/program u Republici Srbiji u obavezi je da nostrifikuje diplomu srednje škole u Agenciji za kvalifikacije. Prilikom upisa potrebno je dostaviti Odluku o priznavanju prethodno stečene strane školske isprave iz Agencije za kvalifikacije, kao i fotokopiju originalne dokumentacije i njenih prevoda.
+        Ukoliko Odluka o priznavanju prethodno stečene strane školske isprave još uvek nije urađena potrebno je dostaviti potvrdu Agencije za kvalifikacije o započetom postupku i fotokopiju originalne dokumentacije i njenih prevoda.
+        Dve fotografije za indeks dimenzija 3,5 x 4,5 cm;
+        Ličnu kartu ili fotokopiju lične karte bez čipa. Strani državljani dostavljaju kopiju pasoša (strana sa fotografijom i ličnim podacima).
+        Kandidati kojima je potrebna viza prilažu i kopiju strane pasoša sa boravišnom dozvolom (vizom), kao i kopiju prijave boravka koja se dobija u policiji. Za kandidate iz zemalja kojima nije potrebna viza kopira se strana pasoša gde se vidi datum ulaska u Srbiju, a ukoliko se iz Crne Gore / BIH u Srbiju ušlo sa ličnom kartom može se naknadno dostaviti kopija prijave boravka koja se dobija u policiji;
+        Kandidati koji upisuju studije na engleskom jeziku - potvrda da vladaju engleskim jezikom - nivo B2 – ukoliko srednja škola nije završena na engleskom jeziku – može se doneti naknadno, najkasnije do upisa naredne školske godine;
+        Kandidati koji upisuju studije na srpskom jeziku - potvrda da vladaju srpskim jezikom - nivo B2 – ukoliko srednja škola nije završena na srpskom, hrvatskom, crnogorskom ili bosanskom jeziku – može se doneti naknadno, najkasnije do upisa naredne školske godine;
+        Dokaz o uplati školarine (minimalno 10%) ili potpisani predugovor o studiranju;
+        Dokaz o uplati upisnog materijala i osiguranja (1800 din);
+        Za kandidate strane državljane - potvrda o uplaćenom zdravstvenom osiguranju u R. Srbiji;
+        Za vukovce - overena kopija Vukove diplome;
+        Lekarsko uverenje o psiho-fizičkoj sposobnosti za upis na fakultet i urađeni elektrokardiogram – EKG za kandidate koji upisuju studijski program Fizičko vaspitanje i sport ili Menadžment u sportu."
+
+  
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

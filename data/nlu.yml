@@ -88,8 +88,96 @@ nlu:
 - intent: discount_full_payout
   examples: |
     - da li postoji popust za plaćanje u celosti
+    - kakva je cena za celo placanje
+    - kakva je procedura za placanje odjednom
     - jel može na rate
 
 - intent: scholarship_includes
   examples: |
     - šta je sve uključeno u cenu školarine
+    - sta pokriva cena skolarine
+
+# Pitanja o prijemnom ispitu
+
+- intent: admission_exam_payment
+  examples: |
+    - da li se prijemni ispit placa
+    - koliko kosta prijemni ispit
+
+- intent: admission_exam_start
+  examples: |
+    - kada pocinje prijemni ispit
+    - kako ide prijemni ispit
+
+- intent: admission_exam_submit
+  examples: |
+    - kako mogu da se prijavim za prijemni
+    - kako se prijaviti za prijemni ispit
+
+- intent: admission_exam_look
+  examples: |
+    - od cega se sastoji prijemni ispit
+    - kako izgleda prijemni ispit
+    - sta je sve na prijemnom ispitu
+
+- intent: admission_exam_materials
+  examples: |
+    - gde mogu da pronadjem materijale za pripremu prijemnog ispita
+    - gde su materijali za pripremu prijemnog ispita
+    - kako da pronadjem materijale za pripremu prijemnog ispita
+    - kako da se pripremim za prijemni ispit
+  
+# Opsta pitanja o studiranju
+
+- intent: study_lenght
+  examples: |
+    - koliko traju studije
+    - koliko se dugo studira
+
+- intent: graduation_title
+  examples: |
+    - koje zvanje se stice nakon zavrsenog studijskog programa
+    - kakva je titula nakon zavrsenih studija
+    - kako cu se zvati nakon diplomiranja
+
+- intent: study_acreditation
+  examples: |
+    - da li je studijski program akreditovan
+    - da li su svi studijski programi akreditovani
+    - kakva je situacija za akreditacijom
+
+- intent: employed_student_support
+  examples: |
+    - da li postoji podrska zaposlenih studenata
+    - da li postoji podrska za zaposlene studenete
+    - da li postoje termini za zaposlene studente
+
+- intent: online_exams
+  examples: |
+    - da li se ispiti mogu polagati onlajn
+    - da li se ispiti mogu polagati online
+    - da li mogu ploagati ispit online
+
+- intent: internship
+  examples: |
+    - da li je praksa obavezna
+    - da li je praksa obezbenjena od strane fakulteta
+    - kakva je situacija sa praksom
+
+- intent: employment_help
+  examples: |
+    - da li Univerzitet pomaze prilikom zaposlenja nakon studija
+    - da li je omoguceno zaposlenje
+    - kakva je situacija sa poslom
+
+- intent: admission_start
+  examples: |
+    - kada pocinje upis
+    - do kada je moguce da se upisem
+    - do kada je moguce upisati
+
+- intent: admission_documentation
+  examples: |
+    - koja je dokumntacija potrebna za upis
+    - sta je sve potrebno za upis
+    - kakva dokumenta su mi potrebna za upis
