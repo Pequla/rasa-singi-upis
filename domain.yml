@@ -178,7 +178,9 @@ responses:
         Za vukovce - overena kopija Vukove diplome;
         Lekarsko uverenje o psiho-fizičkoj sposobnosti za upis na fakultet i urađeni elektrokardiogram – EKG za kandidate koji upisuju studijski program Fizičko vaspitanje i sport ili Menadžment u sportu."
 
-  
+actions:
+  - action_default_fallback
+  - action_unlikely_intent
 
 session_config:
   session_expiration_time: 60
