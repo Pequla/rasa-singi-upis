@@ -1,7 +1,6 @@
 from typing import Any, Text, Dict, List
 
-from rasa_sdk import Action, Tracker
-from rasa_sdk.executor import CollectingDispatcher
+from rasa_sdk import Action, ConversationPaused, UserUtteranceReverted
 
 
 class ActionDefaultFallback(Action):
@@ -12,15 +11,4 @@ class ActionDefaultFallback(Action):
     def run(self, dispatcher, tracker, domain):
         dispatcher.utter_message(
             "Na žalost, nisam u mogućnosti da Vam odgovorim na ovo pitanje. Molim Vas da kontaktirate studentski servis na adresi: studije@singidunum.ac.rs")
-        return []
-
-
-class ActionUnlikelyIntent(Action):
-
-    def name(self):
-        return "action_unlikely_intent"
-
-    def run(self, dispatcher, tracker, domain):
-        dispatcher.utter_message(
-            "Na žalost, nisam u mogućnosti da Vam odgovorim na ovo pitanje. Molim Vas da kontaktirate studentski servis na adresi: studije@singidunum.ac.rs")
-        return []
+        return [ConversationPaused(), UserUtteranceReverted()]

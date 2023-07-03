@@ -85,7 +85,7 @@ rules:
     steps:
       - intent: study_acreditation
       - action: utter_study_acreditation
-  
+
   - rule: rule_employed_student_support
     steps:
       - intent: employed_student_support
@@ -335,3 +335,8 @@ rules:
     steps:
       - intent: mail_profesora
       - action: utter_mail_profesora
+
+  - rule: rule_nlu_fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_default_fallback
