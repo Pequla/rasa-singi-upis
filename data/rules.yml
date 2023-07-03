@@ -231,6 +231,11 @@ rules:
       - intent: evidencija_uplata
       - action: utter_evidencija_uplata
 
+  - rule: rule_skolarina_dugovanje
+    steps:
+      - intent: skolarina_dugovanje
+      - action: utter_skolarina_dugovanje
+
   - rule: rule_podnosenje_molbe
     steps:
       - intent: podnosenje_molbe
