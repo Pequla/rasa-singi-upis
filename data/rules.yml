@@ -115,3 +115,223 @@ rules:
     steps:
       - intent: admission_documentation
       - action: utter_admission_documentation
+
+  - rule: rule_faculty_change_procedure
+    steps:
+      - intent: faculty_change_procedure
+      - action: utter_faculty_change_procedure
+
+  - rule: rule_faculty_change_year_condition
+    steps:
+      - intent: faculty_change_year_condition
+      - action: utter_faculty_change_year_condition
+
+  - rule: rule_faculty_change_espb
+    steps:
+      - intent: faculty_change_espb
+      - action: utter_faculty_change_espb
+
+  - rule: rule_student_service_working_hours
+    steps:
+      - intent: student_service_working_hours
+      - action: utter_student_service_working_hours
+
+  - rule: rule_euro_exchange_rate
+    steps:
+      - intent: euro_exchange_rate
+      - action: utter_euro_exchange_rate
+
+  - rule: rule_bank_account
+    steps:
+      - intent: bank_account
+      - action: utter_bank_account
+
+  - rule: rule_certificate_of_study
+    steps:
+      - intent: certificate_of_study
+      - action: utter_certificate_of_study
+
+  - rule: rule_certificate_of_passed_exams
+    steps:
+      - intent: certificate_of_passed_exams
+      - action: utter_certificate_of_passed_exams
+
+  - rule: rule_exam_registration
+    steps:
+      - intent: exam_registration
+      - action: utter_exam_registration
+
+  - rule: rule_subsequent_exam_registration
+    steps:
+      - intent: subsequent_exam_registration
+      - action: utter_subsequent_exam_registration
+
+  - rule: rule_singimail_login
+    steps:
+      - intent: singimail_login
+      - action: utter_singimail_login
+
+  - rule: rule_estudent_login
+    steps:
+      - intent: estudent_login
+      - action: utter_estudent_login
+
+  - rule: rule_singipay
+    steps:
+      - intent: singipay
+      - action: utter_singipay
+
+  - rule: rule_school_year_price_increase
+    steps:
+      - intent: school_year_price_increase
+      - action: utter_school_year_price_increase
+
+  - rule: rule_odbrana_zavrsnog_rada
+    steps:
+      - intent: odbrana_zavrsnog_rada
+      - action: utter_odbrana_zavrsnog_rada
+
+  - rule: rule_singimail_login_fail
+    steps:
+      - intent: singimail_login_fail
+      - action: utter_singimail_login_fail
+
+  - rule: rule_msteams_login_fail
+    steps:
+      - intent: msteams_login_fail
+      - action: utter_msteams_login_fail
+
+  - rule: rule_msteams_login_fail
+    steps:
+      - intent: msteams_login_fail
+      - action: utter_msteams_login_fail
+
+  - rule: rule_prijava_nesrecnog_slucaja
+    steps:
+      - intent: prijava_nesrecnog_slucaja
+      - action: utter_prijava_nesrecnog_slucaja
+
+  - rule: rule_sistem_ubrzanog_studiranja
+    steps:
+      - intent: sistem_ubrzanog_studiranja
+      - action: utter_sistem_ubrzanog_studiranja
+
+  - rule: rule_razmena_studenata
+    steps:
+      - intent: razmena_studenata
+      - action: utter_razmena_studenata
+
+  - rule: rule_saradnja_sa_stranim_univerzitetima
+    steps:
+      - intent: saradnja_sa_stranim_univerzitetima
+      - action: utter_saradnja_sa_stranim_univerzitetima
+
+  - rule: rule_evidencija_uplata
+    steps:
+      - intent: evidencija_uplata
+      - action: utter_evidencija_uplata
+
+  - rule: rule_podnosenje_molbe
+    steps:
+      - intent: podnosenje_molbe
+      - action: utter_podnosenje_molbe
+
+  - rule: rule_molba_odgovor
+    steps:
+      - intent: molba_odgovor
+      - action: utter_molba_odgovor
+
+  - rule: rule_molba_dopuna
+    steps:
+      - intent: molba_dopuna
+      - action: utter_molba_dopuna
+
+  - rule: rule_ispis_sa_fakulteta
+    steps:
+      - intent: ispis_sa_fakulteta
+      - action: utter_ispis_sa_fakulteta
+
+  - rule: rule_trajanje_prakse
+    steps:
+      - intent: trajanje_prakse
+      - action: utter_trajanje_prakse
+
+  - rule: rule_tekuci_racun_upisni_materijal
+    steps:
+      - intent: tekuci_racun_upisni_materijal
+      - action: utter_tekuci_racun_upisni_materijal
+
+  - rule: rule_dokumentacija_za_upis_vise_godine
+    steps:
+      - intent: dokumentacija_za_upis_vise_godine
+      - action: utter_dokumentacija_za_upis_vise_godine
+
+  - rule: rule_placanje_prenetih_ispita
+    steps:
+      - intent: placanje_prenetih_ispita
+      - action: utter_placanje_prenetih_ispita
+
+  - rule: rule_placanje_po_bodu
+    steps:
+      - intent: placanje_po_bodu
+      - action: utter_placanje_po_bodu
+
+  - rule: rule_pocetak_upisa_vise_godine
+    steps:
+      - intent: pocetak_upisa_vise_godine
+      - action: utter_pocetak_upisa_vise_godine
+
+  - rule: rule_do_kada_upis_vise_godine
+    steps:
+      - intent: do_kada_upis_vise_godine
+      - action: utter_do_kada_upis_vise_godine
+
+  - rule: rule_predavanja_oktobar
+    steps:
+      - intent: predavanja_oktobar
+      - action: utter_predavanja_oktobar
+
+  - rule: rule_vazenje_ispita_iz_prosle_godine
+    steps:
+      - intent: vazenje_ispita_iz_prosle_godine
+      - action: utter_vazenje_ispita_iz_prosle_godine
+
+  - rule: rule_raspored_ispita_kolokvijuma
+    steps:
+      - intent: raspored_ispita_kolokvijuma
+      - action: utter_raspored_ispita_kolokvijuma
+
+  - rule: rule_kada_je_koji_rok
+    steps:
+      - intent: kada_je_koji_rok
+      - action: utter_kada_je_koji_rok
+
+  - rule: rule_oktobarski_rok
+    steps:
+      - intent: oktobarski_rok
+      - action: utter_oktobarski_rok
+
+  - rule: rule_trajanje_bloka
+    steps:
+      - intent: trajanje_bloka
+      - action: utter_trajanje_bloka
+
+  - rule: rule_ispit_strani_jezik
+    steps:
+      - intent: ispit_strani_jezik
+      - action: utter_ispit_strani_jezik
+
+  - rule: rule_raspored_konsultacija
+    steps:
+      - intent: raspored_konsultacija
+      - action: utter_raspored_konsultacija
+
+  - rule: rule_mail_profesora
+    steps:
+      - intent: mail_profesora
+      - action: utter_mail_profesora
+
+  - rule: rule_default_response
+    steps:
+      - action: action_default_fallback
+      - action: utter_greet

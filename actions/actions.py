@@ -11,7 +11,7 @@ class ActionDefaultFallback(Action):
 
     def run(self, dispatcher, tracker, domain):
         dispatcher.utter_message(
-            "Na žalost, nisam u mogućnosti da Vam odgovorim na ovo pitanje. Molim Vas da kontakrite studentski servis na adresi: studije@singidunum.ac.rs")
+            "Na žalost, nisam u mogućnosti da Vam odgovorim na ovo pitanje. Molim Vas da kontaktirate studentski servis na adresi: studije@singidunum.ac.rs")
         return []
 
 
@@ -22,5 +22,5 @@ class ActionUnlikelyIntent(Action):
 
     def run(self, dispatcher, tracker, domain):
         dispatcher.utter_message(
-            "Na žalost, nisam u mogućnosti da Vam odgovorim na ovo pitanje. Molim Vas da kontakrite studentski servis na adresi: studije@singidunum.ac.rs")
+            "Na žalost, nisam u mogućnosti da Vam odgovorim na ovo pitanje. Molim Vas da kontaktirate studentski servis na adresi: studije@singidunum.ac.rs")
         return []

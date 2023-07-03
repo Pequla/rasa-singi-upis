@@ -26,6 +26,49 @@ intents:
   - employment_help
   - admission_start
   - admission_documentation
+  - faculty_change_procedure
+  - faculty_change_year_condition
+  - faculty_change_espb
+  - student_service_working_hours
+  - euro_exchange_rate
+  - bank_account
+  - certificate_of_study
+  - certificate_of_passed_exams
+  - exam_registration
+  - subsequent_exam_registration
+  - singimail_login
+  - estudent_login
+  - singipay
+  - school_year_price_increase
+  - odbrana_zavrsnog_rada
+  - singimail_login_fail
+  - msteams_login_fail
+  - prijava_nesrecnog_slucaja
+  - sistem_ubrzanog_studiranja
+  - razmena_studenata
+  - saradnja_sa_stranim_univerzitetima
+  - evidencija_uplata
+  - skolarina_dugovanje
+  - podnosenje_molbe
+  - molba_odgovor
+  - molba_dopuna
+  - ispis_sa_fakulteta
+  - trajanje_prakse
+  - tekuci_racun_upisni_materijal
+  - dokumentacija_za_upis_vise_godine
+  - placanje_prenetih_ispita
+  - placanje_po_bodu
+  - pocetak_upisa_vise_godine
+  - do_kada_upis_vise_godine
+  - predavanja_oktobar
+  - vazenje_ispita_iz_prosle_godine
+  - raspored_ispita_kolokvijuma
+  - kada_je_koji_rok
+  - oktobarski_rok
+  - trajanje_bloka
+  - ispit_strani_jezik
+  - raspored_konsultacija
+  - mail_profesora
 
 responses:
   utter_greet:
@@ -62,103 +105,103 @@ responses:
   utter_discount_full_payout:
     - text: "Poštovani,
         Hvala Vam na interesovanju za upis na Univerzitet Singidunum.
-        Popust za uplate u celosti nije predviđen. Ista je cena za plaćanje školarije u celini i uplatu na rate. 
+        Popust za uplate u celosti nije predviđen. Ista je cena za plaćanje školarije u celini i uplatu na rate.
         Srdačan pozdrav"
 
   utter_scholarship_includes:
     - text: "Poštovani,
         Hvala Vam na interesovanju za upis na Univerzitet Singidunum.
-        U cenu školarine su uključena predavanja, vežbe, udžbenici i kolokvijumi, dok se prijava ispita plaća dodatnih 500 dinara u redovnoj proceduri, takođe plaćaju se i ostale usluge prema važećem cenovniku koji možete pronaći na sajtu Univerziteta 
+        U cenu školarine su uključena predavanja, vežbe, udžbenici i kolokvijumi, dok se prijava ispita plaća dodatnih 500 dinara u redovnoj proceduri, takođe plaćaju se i ostale usluge prema važećem cenovniku koji možete pronaći na sajtu Univerziteta
         Srdačan pozdrav"
 
   utter_admission_exam_payment:
     - text: "Poštovani,
         Hvala Vam na interesovanju za upis na Univerzitet Singidunum.
-        Prijemni ispit se ne plaća za sve studijske programe osim praktičnog dela prijemnog ispita za studijski program Fizičko vaspitanje i sport. Cena ovog prijemnog ispita je 4500 dinara. 
+        Prijemni ispit se ne plaća za sve studijske programe osim praktičnog dela prijemnog ispita za studijski program Fizičko vaspitanje i sport. Cena ovog prijemnog ispita je 4500 dinara.
         Srdačan pozdrav"
 
   utter_admission_exam_start:
-    - text: "Poštovani, 
+    - text: "Poštovani,
         Hvala Vam na interesovanju za upis na Univerzitet Singidunum.
-        Prijemni ispiti počinju u martu i traju do popune slobodnih mesta. Potrebno je da se prijavite za prijemni ipit preko naše platforme na sledećem linku: https://use.singidunum.ac.rs/account/authentication/registration 
-        Zatim ćete u povratnom mejlu dobiti parametre za pristup. Kada se uspešno ulogujete možete izabrati termin koji Vama odgovara. Za sva dodatna pitanja Vam stojimo na raspolaganju. 
+        Prijemni ispiti počinju u martu i traju do popune slobodnih mesta. Potrebno je da se prijavite za prijemni ipit preko naše platforme na sledećem linku: https://use.singidunum.ac.rs/account/authentication/registration
+        Zatim ćete u povratnom mejlu dobiti parametre za pristup. Kada se uspešno ulogujete možete izabrati termin koji Vama odgovara. Za sva dodatna pitanja Vam stojimo na raspolaganju.
         Srdačan pozdrav"
 
   utter_admission_exam_submit:
-    - text: "Poštovani, 
+    - text: "Poštovani,
         Hvala Vam na interesovanju za upis na Univerzitet Singidunum.
-        Kako biste se prijavili za polaganje prijemnog ispita potrebno je da popunite formu na sledećem linku: https://use.singidunum.ac.rs/account/authentication/registration 
-        Kada se uspešno prijavite preko ove forme biće Vam dostavljeni parametri za pristup profilu, na svom profilu možete odbabrati termin koji Vama najviše odgovara kao i da li želite da polažete prijemni ispit uživo na univerzitetu ili onlajn. 
-        Za sva dodatna pitanja Vam stojimo na raspolaganju. 
+        Kako biste se prijavili za polaganje prijemnog ispita potrebno je da popunite formu na sledećem linku: https://use.singidunum.ac.rs/account/authentication/registration
+        Kada se uspešno prijavite preko ove forme biće Vam dostavljeni parametri za pristup profilu, na svom profilu možete odbabrati termin koji Vama najviše odgovara kao i da li želite da polažete prijemni ispit uživo na univerzitetu ili onlajn.
+        Za sva dodatna pitanja Vam stojimo na raspolaganju.
         Srdačan pozdrav"
 
   utter_admission_exam_look:
     - text: "Poštovani,
         Hvala Vam na interesovanju za upis na Univerzitet Singidunum.
-        U zavisnosti od studijskog programa koji ste izabrali način polaganja prijemnog ispita je istaknut na sajtu fakulteta na sledećem linku: 
+        U zavisnosti od studijskog programa koji ste izabrali način polaganja prijemnog ispita je istaknut na sajtu fakulteta na sledećem linku:
         https://singidunum.ac.rs/upis/
-        Izborom određenog programa možete videti opis i predmete koje je potrebno pripremiti. Svaki od studijskih programa u sklopu prijemnog ispita ima intervju, odnosno razgovor sa profesorom. Možete odabrati da razgovor imate uživo na fakultetu ili onlajn. Ukoliko se odlučite za opciju polaganja prijemnog ispita onlajn, dan pre odabranog termina ćemo Vam poslati link za pristup Microsoft Teams platformi preko koje ćete stupiti u kontakt sa profesorom u zakazanom terminu. Razgovori imaju za cilj da odrede Vaša interesovanja i da Vam pomognu u donošenju odluke o izboru pravog studijskog programa za Vas. 
-        Za sva dodatna pitanja Vam stojimo na raspolaganju. 
+        Izborom određenog programa možete videti opis i predmete koje je potrebno pripremiti. Svaki od studijskih programa u sklopu prijemnog ispita ima intervju, odnosno razgovor sa profesorom. Možete odabrati da razgovor imate uživo na fakultetu ili onlajn. Ukoliko se odlučite za opciju polaganja prijemnog ispita onlajn, dan pre odabranog termina ćemo Vam poslati link za pristup Microsoft Teams platformi preko koje ćete stupiti u kontakt sa profesorom u zakazanom terminu. Razgovori imaju za cilj da odrede Vaša interesovanja i da Vam pomognu u donošenju odluke o izboru pravog studijskog programa za Vas.
+        Za sva dodatna pitanja Vam stojimo na raspolaganju.
         Srdačan pozdrav"
 
   utter_admission_exam_materials:
-    - text: "Poštovani, 
+    - text: "Poštovani,
         Hvala Vam na interesovanju za upis na Univerzitet Singidunum.
-        Nakon prijave za upis na naš univerzitet dobili ste automatski odgovor koji sadrži pristupne parametre za našu platformu, kada se uspešno ulogujete biće potrebno da popunite formu sa Vašim ličnim podacima. Kada uspešno popunite i sačuvate ovu formu pojaviće se Vaš profil i opcija na kojoj ćete pronaći, u zavisnosti od željenog studijskog programa, testove, teze ili smernice za pripremu prijemnog ispita. 
-        Za sva dodatna pitanja Vam stojimo na raspolaganju. 
+        Nakon prijave za upis na naš univerzitet dobili ste automatski odgovor koji sadrži pristupne parametre za našu platformu, kada se uspešno ulogujete biće potrebno da popunite formu sa Vašim ličnim podacima. Kada uspešno popunite i sačuvate ovu formu pojaviće se Vaš profil i opcija na kojoj ćete pronaći, u zavisnosti od željenog studijskog programa, testove, teze ili smernice za pripremu prijemnog ispita.
+        Za sva dodatna pitanja Vam stojimo na raspolaganju.
         Srdačan pozdrav"
 
-# Opsta pitanja o studiranju
+  # Opsta pitanja o studiranju
 
   utter_study_lenght:
     - text: "Poštovani,
         Hvala Vam na interesovanju za upis na Univerzitet Singidunum.
-        Osnovne studije na Univerzitetu Singidunum traju četiri godine (obima 240 ESPB) uz izuzetak studijskog programa Farmacije koji predstavlja integrisane osnovne i master studije, pa u skladu sa tim traju pet godina (300 ESPB). 
-        Za sve dodatne informacije Vam stojimo na raspolaganju. 
+        Osnovne studije na Univerzitetu Singidunum traju četiri godine (obima 240 ESPB) uz izuzetak studijskog programa Farmacije koji predstavlja integrisane osnovne i master studije, pa u skladu sa tim traju pet godina (300 ESPB).
+        Za sve dodatne informacije Vam stojimo na raspolaganju.
         Srdačan pozdrav"
 
   utter_graduation_title:
-    - text: "Poštovani, 
+    - text: "Poštovani,
         Hvala Vam na interesovanju za upis na Univerzitet Singidunum.
         U zavisnosti od studijskog programa koji ste odvabrali zvanje nakon završenih studija možete pronaći na sledećem linku:
-        https://singidunum.ac.rs/upis/ 
+        https://singidunum.ac.rs/upis/
         Za sva dodatna pitanja vam stojimo na raspolaganju.
         Srdačan pozdrav"
 
   utter_study_acreditation:
-    - text: "Poštovani, 
+    - text: "Poštovani,
         Hvala Vam na interesovanju za upis na Univerzitet Singidunum.
-        Svi studijski programi na Univerzitetu Singidunum su akreditovani odnosno priznati od strane Republike Srbije. Akreditacija predstavlja javni dokument koji možete pogledati na našem sajtu na sledećem linku: 
+        Svi studijski programi na Univerzitetu Singidunum su akreditovani odnosno priznati od strane Republike Srbije. Akreditacija predstavlja javni dokument koji možete pogledati na našem sajtu na sledećem linku:
         https://singidunum.ac.rs/page/akreditacija
-        Za sva dodatna pitanja Vam stojimo na raspolaganju. 
+        Za sva dodatna pitanja Vam stojimo na raspolaganju.
         Srdačan pozdrav"
 
   utter_employed_student_support:
-    - text: "Poštovani, 
+    - text: "Poštovani,
         Hvala Vam na interesovanju za upis na Univerzitet Singidunum.
-        Univerzitet Singidunum ima program podrške zaposlenim studentima u smislu da im omogućava da predavanja i vežbe (uslovno) prate onlajn, dok je za polaganje ispita neophodno prisustvovati na Univerzitetu. Da biste pristupili ovom programu, potrebno je da nam dostavite dokaz o zaposlenju. Više o ovoj temi možete pogledati na našem sajtu na sledećem linku: 
-        https://singidunum.ac.rs/upis/pages/podrska-zaposlenim-studentima#title 
-        Za sva dodatna pitanja Vam stojimo na raspolaganju. 
+        Univerzitet Singidunum ima program podrške zaposlenim studentima u smislu da im omogućava da predavanja i vežbe (uslovno) prate onlajn, dok je za polaganje ispita neophodno prisustvovati na Univerzitetu. Da biste pristupili ovom programu, potrebno je da nam dostavite dokaz o zaposlenju. Više o ovoj temi možete pogledati na našem sajtu na sledećem linku:
+        https://singidunum.ac.rs/upis/pages/podrska-zaposlenim-studentima#title
+        Za sva dodatna pitanja Vam stojimo na raspolaganju.
         Srdačan pozdrav"
 
   utter_online_exams:
-    - text: "Poštovani, 
+    - text: "Poštovani,
         Hvala Vam na interesovanju za upis na Univerzitet Singidunum.
-        U izuzetnim slučajevima je moguće odobriti proveru znanja sa udaljene lokacije , ali je i u tom slučaju neophodno lično prisustvo u nekom od narednih rokova kako bi se ocena verifikovala uz predhodnu proceduralnu prijavu ispita. 
-        Za sva dodatna pitanja Vam stojimo na raspolaganju. 
+        U izuzetnim slučajevima je moguće odobriti proveru znanja sa udaljene lokacije , ali je i u tom slučaju neophodno lično prisustvo u nekom od narednih rokova kako bi se ocena verifikovala uz predhodnu proceduralnu prijavu ispita.
+        Za sva dodatna pitanja Vam stojimo na raspolaganju.
         Srdačan pozdrav"
 
   utter_internship:
     - text: "Profesionalna praksa je obavezna i predviđena Nastavnim planom i programom kao deo predmeta Praktična istraživanja i poslovne veštine za sve studijske programe u trajanju od najmanje dve nedelje.                                                                       Studentima Fakulteta za turistički i hotelijerski menadžment profesionalna praksa je obavezna i predviđena Nastavnim planom i programom. Za studente III godine praksa će se organizovati u šestom semestru u trajanju od mesec dana (tokom maja). Za studente IV godine organizuje se osmom semestru u trajanju od 6 nedelja (maj-jun) i evidentira se kao deo predmeta Praktična istraživanja i poslovne veštine. Stručna praksa se može organizovati samostalno ili preko Univerziteta. Aktuelne ponude prakse mogu se pronaći na sajtu Centra za razvoj karijere."
 
   utter_employment_help:
-    - text: "Na sajtu Centra za razvoj karijere se redovno objavljuju konkursi za posao, kao i za stručne prakse (plaćene i neplaćene) nakon kojih naši studenti neretko ostaju da rade u kompanijama. careers.singidunum.ac.rs"  
+    - text: "Na sajtu Centra za razvoj karijere se redovno objavljuju konkursi za posao, kao i za stručne prakse (plaćene i neplaćene) nakon kojih naši studenti neretko ostaju da rade u kompanijama. careers.singidunum.ac.rs"
 
   utter_admission_start:
-    - text: "Poštovani, 
+    - text: "Poštovani,
         Hvala Vam na interesovanju za upis na Univerzitet Singidunum.
-        Upis na osnovne studije počinje u junu (prema konkursu odnosno definisanim upisnim rokovima), kada dobijete srednjoškolska dokumenta i traje sve do popune slobodnih mesta. 
-        Za sva dodatna pitanja Vam stojimo na raspolaganju. 
+        Upis na osnovne studije počinje u junu (prema konkursu odnosno definisanim upisnim rokovima), kada dobijete srednjoškolska dokumenta i traje sve do popune slobodnih mesta.
+        Za sva dodatna pitanja Vam stojimo na raspolaganju.
         Srdačan pozdrav"
 
   utter_admission_documentation:
@@ -177,6 +220,305 @@ responses:
         Za kandidate strane državljane - potvrda o uplaćenom zdravstvenom osiguranju u R. Srbiji;
         Za vukovce - overena kopija Vukove diplome;
         Lekarsko uverenje o psiho-fizičkoj sposobnosti za upis na fakultet i urađeni elektrokardiogram – EKG za kandidate koji upisuju studijski program Fizičko vaspitanje i sport ili Menadžment u sportu."
+
+  # Prelasci sa drugih fakulteta
+
+  utter_faculty_change_procedure:
+    - text: "Poštovani,
+        Hvala Vam na interesovanju za upis na Univerzitet Singidunum.
+        Da biste prešli sa druge visokoškolske ustanove potrebno je da priložite Uverenje o položenim ispitima sa vašeg fakulteta i popunite formu na sledećem linku:
+        https://singidunum.ac.rs/upis/pages/prelazak-na-studije#title
+        Kroz nekoliko dana ćete mejlom dobiti komisijski odgovor  sa željenog studijskog programa o ispitima koji će Vam biti priznati odnosno ekvivalentirani i koje je potrebno položiti na našem univerzitetu, zatim ćete dobiti mejl od studentske službe sa navedenim potrebnim dokumentima za upis. Ukoliko se budete slagali sa poslatom odlukom, možete doći na upis.
+        Za sva dodatna pitanja Vam stojimo na raspolaganju.
+        Srdačan pozdrav"
+
+  utter_faculty_change_year_condition:
+    - text: "Poštovani,
+        Hvala Vam na interesovanju za upis na Univerzitet Singidunum.
+        Nezavisno od uslova i uspeha na fakultetu koji trenutno studirate možete dostaviti Uverenje o položenim ispitima na osnovu kog će komisija odrediti koji ispiti će biti priznati odnosno ekvivalentirani, a koje je potrebno položiti kako biste stekli željeno zvanje.
+        Za sva dodatna pitanja Vam stojimo na raspolaganju.
+        Srdačan pozdrav"
+
+  utter_faculty_change_espb:
+    - text: "Poštovani,
+        Hvala Vam na interesovanju za upis na Univerzitet Singidunum.
+        Kada se upisujete na Univerzitet Singidunum sa druge visokoškolske ustanove, plaćate školarinu po bodovima koje ćete steći na upisanom studijskom programu, one koje ste doneli ne plaćate.
+        Za sve dodatne informacije Vam stojimo na raspolaganju. Takođe, ukoliko ste već student Univerziteta i prenosite nepoložene bodove za iste plaćate 50% manji iznos u odnosu na prvi upis
+        Srdačan pozdrav"
+
+  # Opsta pitanja vec upisani studenti
+
+  utter_student_service_working_hours:
+    - text: "Poštovani,
+        Studentski servis je otvoren svakog radnog dana od 8 do 18 časova i subotom od 9 do 14 časova.
+        Za sva dodatna pitanja Vam stojimo na raspolaganju.
+        Srdačan pozdrav"
+
+  utter_euro_exchange_rate:
+    - text: "Poštovnai,
+        Kurs evra po kom je potrebno uplatiti školarinu u svakom trenutku možete pogledati na našem sajtu na sledećem linku:
+        https://singidunum.ac.rs/kurs
+        Za sva dodatna pitanja Vam stojimo na raspolaganju.
+        Srdačan pozdrav"
+
+  utter_bank_account:
+    - text: "Poštovani,
+        Tekuće račune na koji uplaćujete školarinu možete pogledati na sledećem linku:
+        https://singidunum.ac.rs/page/tekuci-racuni
+        Podsećamo Vas da ne zaboravite da navedete broj indeksa u pozivu na broj kako bi novac bio evidentiran na vašem računu, Vaš broj indeksa unosite bez razmaka i znakova interpunkcije (npr. 2020123456)
+        Za sva dodatna pitanja Vam stojimo na raspolaganju.
+        Srdačan pozdrav"
+
+  utter_certificate_of_study:
+    - text: "Poštovani,
+        Potvrdu o redovnom studiranju Univerzitet može izdati kada su izmirene dospele obaveze za školarinu prema Ugovoru o studiranju i ukoliko na nalogu za ispite i ostale namene imate raspoloživo  400 dinara. Skeniranu potvrdu Vam možemo poslati isključivo na singimejl, ali Univerzitet Singidunum ne može da garantuje da će institucija kojoj predajete dokument prihvatiti skeniranu verziju, pa original možete preuzeti u studentskom servisu.
+        Za sva dodatna pitanja Vam stojimo na raspolaganju.
+        Srdačan pozdrav"
+
+  utter_certificate_of_passed_exams:
+    - text: "Poštovani,
+        Uverenje o položenim ispitima Univerzitet može izdati kada su izmirene dospele obaveze za školarinu prema Ugovoru o studiranju i ukoliko na nalogu za ispite i ostale namene imate raspoloživo 1300 dinara za verziju na srpskom jeziku, za verziju na engleskom jeziku uverenje o položeženim ispitima se naplaćuje 2600 dinara. Skenirano Uverenje o položenim ispitima Vam možemo poslati isključivo na singimejl adresu, ali Univerzitet Singidunum ne može da garantuje da će institucija kojoj predajete dokument prihvatiti skeniranu verziju, pa original možete preuzeti u studentskom servisu.
+        Za sva dodatna pitanja Vam stojimo na raspolaganju.
+        Srdačan pozdrav"
+
+  utter_exam_registration:
+    - text: "Poštovani,
+        Kao što možete videti u Vodiču kroz administraciju:
+        https://repository.singidunum.ac.rs/files/2020/11/Vodic-kroz-administraciju.pdf
+        Prijava ispita se vrši isključivo elektronski putem portala
+        eStudent. Ispit se može prijaviti najkasnije 5 dana do
+        datuma ispita do 14:00 časova ne računajući dan održavanja. Naknada iznosi 500 dinara
+        po ispitu i potrebno je da se uplata izvrši najkasnije 10
+        dana pred ispit.
+        Srdačan pozdrav"
+
+  utter_subsequent_exam_registration:
+    - text:
+        "Poštovani, Nakon isteka roka za prijavu ispita po redovnoj ceni (5 dana pre
+        datuma ispita do 14:00), ne računajući dan održavanja‚ ispit je
+        moguće prijaviti po ceni naknadne prijave ispita, najkasnije 1 dan
+        pred ispit do 14:00. Na dan ispita nije moguća prijava.
+        Za naknadnu prijavu ispita je neophodno da u trenutku prijave
+        prema obaveštenju i proceduri student ima raspoloživa sredstva
+        na svom nalogu. Naknadna prijava 1 ispita iznosi 3000 dinara. Nakandna prijava se realizuje slanjem mejla sa singimejl adrese na adresu estudent@singidunum.ac.rs, u mejlu se navodi ime, prezime, broj indeksa i predmeti za prijavu. Kao što možete videti u Vodiču kroz administraciju: https://repository.singidunum.ac.rs/files/2020/11/Vodic-kroz-administraciju.pdf Srdačan pozdrav"
+
+  utter_singimail_login:
+    - text: "Poštovani,
+        Postupak za prijavu na Vašu singimejl adresu možete videti na sledećem linku:
+        https://singimail.rs/
+        Srdačan pozdrav"
+
+  utter_estudent_login:
+    - text: "Poštovani, na Vaš estudent nalog se prijavljujete na osnovu Vaših parametara koje dobijate prilikom upisa, ukoliko ste izgubili ili zaboravili Vaše pristupne parametre za dostavu novih se a Vaše singimejl adrese možete obratiti na adresu estudent@singidunum.ac.rs"
+
+  utter_singipay:
+    - text:
+        "Poštovani, u slučajevima urgentosti postoji mogućnost uplate preko singipay aplikacije (link u nastavku), uplatom na ovaj način Vam se sredstva evidentiraju istog trenutka, neophodno je da imate karticu koja je uslovna za plaćanje preko interneta. Ograničenje po transakciji iznosi 1300 dinara, ukoliko želite da uplatite više od navedenog iznosa morate realizovati više zasebnih transakcija. Navedeno se odnosi isključivo na plaćanje sredstava na nalog za prijavu ispita, školarinu nije moguće uplatiti preko ove opcije.
+        http://singipay.singidunum.ac.rs/"
+
+  utter_school_year_price_increase:
+    - text: "Poštovani,
+        Prilikom potpisivanja prvog Ugovora o studiranju određena je školarina koja će važiti za Vas u toku Vaših studija osim  ukoliko ne promenite studijski program koji studirate ili izgubite status studenta, školarina se neće menjati.
+        Za sva dodatna pitanja Vam stojimo na raspolaganju.
+        Srdačan pozdrav"
+
+  utter_odbrana_zavrsnog_rada:
+    - text: "Poštovani,
+        Da bi ste pristupili terminu zakazivanja odbrane diplomskog rada potrebno je da ste aktivan student u tekućoj akademskoj godini i da imate položene sve predmete predviđene Nastavnim planom i programom.
+        Procedura za odbranu završnog rada je sledeća:
+
+        Student se  putem svog e-Student naloga  opredeljuje za temu i profesora kod koga želi da piše i brani diplomski rad (opcija: Meni - Završni rad).
+
+        Naziv teme se postavlja na ćirilici i latinici (engleski naziv). Nakon prijave teme završnog  rada izabrani profesor će dobiti obaveštenje o studentskoj prijavi teme završnog rada.
+
+        Profesor će imati izbor da li će prihvatiti ili odbiti temu uz odgovarajući komentar. Student će moći da prati status prijave teme završnog rada.
+
+        Ukoliko je tema odobrena, sa profesorom se dogovara sve vezano za pisanje diplomskog rada.
+
+
+
+        Kada mentor oceni da je rad spreman za  koričenje i odbranu, student u studentskom servisu uzima obrasce među kojima je i ’’Odluka da je rad spreman za koričenje i odbranu’’, koju nosi mentoru na potpis, ili ukoliko je dobio potvrdu mejlom da se rad može koričiti potrebno je da odštampa isti i priloži uz ostalu dokumentaciju.
+        Tek tada student može da koriči radove.
+        Student radove koriči u 2 (dva) primerka jedan meko i jedan tvrdo koričenje, i јеdan u elektronskoj formi sa primerom rada u Word ili PDF formatu.
+        U Studentskom servisu predajete:
+        -         ukoričene radove,
+        -         indeks,
+        -         popunjene formulare,
+        -         potpisanu Izjavu o autorstvu diplomskog rada,
+        -         uplatnicu za odbranu diplomskog rada na iznos od 300 evra
+        (uplaćuje se na račun za ispite i ostale naknade (diplomski radovi, izrada diplome, upisni materijal, osiguranje itd.) objavljen na sajtu Univerziteta,
+        svrha uplate: prijava i odbrana diplomskog rada, poziv na broj je broj indeksa)
+        -         CD - sa primerom rada u PDF ili Word formatu
+
+
+        Ukoliko Vam je potrebno Uverenje o diplomiranju, potrebno je da uplatite  iznos od 1300 dinara, na račun za prijavu ispita i uverenja objavljen na sajtu Univerziteta, prilikom predaje diplomskog rada.
+        Uverenje o diplomiranju je dokaz da se diplomirali i važi do izdavanja diplome.
+
+        Za sva dodatna pitanja stojimo Vam na raspolaganju.
+
+
+        Srdačan pozdrav,"
+
+  utter_singimail_login_fail:
+    - text: "Poštovani,
+        Uptstvo za pristup singimejl adresi, možete pronaći na sledećem linku:
+        https://singimail.rs/
+        Ukoliko i dalje imate preblema, možete se obratiti Računarskom centru sa Vaše priavatne adrese na imejl adresu:
+        erc@singidunum.ac.rs
+        Srdačan pozdrav"
+
+  utter_msteams_login_fail:
+    - text: "Poštovani,
+        Uputstvo za pristup Teams platformi možete pronaći u sledećem videu:
+        https://www.youtube.com/watch?v=kTW4xCtiCjI
+        Ukoliko i dalje imate problema možete se obratiti mejlom na adresu:
+        teams@singidunum.ac.rs
+        Za sve dodatne informacije Vam stojimo na raspolaganju.
+        Srdačan pozdrav"
+
+  utter_prijava_nesrecnog_slucaja:
+    - text: "Poštovani,
+        Nakon završenog lečenja za pokretanje procedure prijave osiguranog slučaja potrebno je da nam dostavite:
+
+        Popunjena prijava nesrećnog slučaja koja mora na drugoj stranici biti potpisana od strane studenta.(u prilogu)
+        Medicinska dokumentacija o lečenju (od početnog do završnog izveštaja) – fotokopije
+        Fotokopija izvoda iz matične knjige rođenih
+        Dokaz o uplaćenom osiguranju (print iz fisa) - dostavlja studentska služba
+        Fotokopija kartice dinarskog tekućeg računa, obe stranice, studenta ili  jednog od roditelja
+        Ukoliko postoji dokaz o načinu nastanka osiguranog slučaja (fotokopijazapisnik MUP-a o uviđaju, rešenje sudije za prekršaje, presuda ili izjava svedoka, prijava povrede naradu) – fotokopija
+        Fotokopija lične karte studenta–(očitana ako lična karta ima čip)
+
+        Originale i ostala dokumentacija na zahtev Wiener Städtische osiguranje
+
+
+        Za sve dodatne informacije stojimo Vam na raspolaganju."
+
+  utter_sistem_ubrzanog_studiranja:
+    - text: "Poštovani,
+        Pruža Vam se mogućnost da na višim godinama studja upišete do 90 ESPB bodova i na taj način za jednu akademsku godinu završite jednu i po godinu studija. Na prvoj godini je neophodno upisati 60 ESPB, na drugoj i trećoj je moguće upisati do 90 ESPB u tom slučaju biste fakultet završili za tri godine ukoliko ostvarite sve upisane ESPB.
+        Za sva dodatna pitanja Vam stojimo na raspolaganju.
+        Srdačan pozdrav"
+
+  utter_razmena_studenata:
+    - text: "Konkurs za Erasmus+ razmenu se objavljuje dva puta godišnje i to 1.aprila i 1.oktobra. U tom periodu se uvek održava Info dan radi dostavljanja svih neophodnih informacija studentima. Sve detalje i potpune informacije možete naći na web stranici https://singidunum.ac.rs/page/erazmus"
+
+  utter_saradnja_sa_stranim_univerzitetima:
+    - text: "Sve informacije o Erasmus+ programu, kao i tipovima mobilnosti, listu univerzitetima sa kojima je ostvarena sardnja, možete pogledati na https://singidunum.ac.rs/page/erazmus"
+
+  utter_evidencija_uplata:
+    - text: "Poštovani,
+        Kada izvršite uplatu  potrebno je od 1 do 5 dana da
+        uplata bude vidljiva na Vašem nalogu (zavisno od banke ili
+        pošte gde je uplata izvršena, da li je uplata izvršena pred
+        vikend, praznik, itd.). Ukoliko ni posle 5 dana uplata ne bude
+        vidljiva na nalogu potrebno je službi Računovdostva dostaviti uplatnicu na proveru na adresu
+        racunovodstvo@singidunum.ac.rs
+        Računovodstvo
+        ul. Danijelova, radno vreme 08:00-16:00
+        Srdačan pozdrav"
+
+  utter_skolarina_dugovanje:
+    - text: "Poštovani, Vaše trenutno dugovanje Vam je dostupno preko Vašeg Estudent naloga odnono elektronskog indeksa na opciji 'Школарине и уплате' zatim na polju 'Укупно дуговање на данашњи дан'"
+
+  utter_podnosenje_molbe:
+    - text: "Poštovani, molbu podnosite preko Vašeg Estudent naloga, opcija 'Молбе'. Zavisnosti od Vašeg zahteva možte odabrati  odgovarajući tip molbe u padajućem meniju dok u polju za obrazloženje možete uneti tekst koji se odnosi na Vaš zahtev"
+
+  utter_molba_odgovor:
+    - text: "Poštovani, odgovor na molbu možete pročitati najpre pristupom Vašem Estudent naloga, zatim odabirom opцije 'Молбе', nakon navedenog u gornjem srednjem delu ekrana odaberite karticu 'Издате', након тога у доњем делу на самој молби имате са десне стране опцију 'Детаљи (лупица)' klikom na navedeu opciju Vam se daje mogućnost uvida u odgovor na molbu"
+
+  utter_molba_dopuna:
+    - text: "Poštovani, Vašu molbu možete vratiti sa dopune odabirom opcije 'Молбе' Vašeg Estudent naloga, zatim u gornjem srednjem delu ekrana odaberite opciju 'Допуна', nakon odabira navedene kartice u donjem delu na samoj molbi odaberite opciju 'Допуни молбу', zatim unosom komentara odnosno odgovora i potvrdom unosa Vašu molbu vraćate sa dopune."
+
+  utter_ispis_sa_fakulteta:
+    - text: "Poštovani,
+        Ukoliko želite da se ispišete sa fakulteta, potrebno je da podnesete molbu preko Vašeg E-student naloga. U odgovoru na molbu ćete dobiti dalje instrukcije za realizaciju ispisa. Takođe, u svom poslednjem potpisanom ugovoru možete pronaći trošak i ostale propozicije prilikom ispisa.
+        Za sve dodatne informacije Vam stojimo na raspolaganju,
+        Srdačan pozdrav"
+
+  utter_trajanje_prakse:
+    - text: "Profesionalna praksa je obavezna i predviđena Nastavnim planom i programom kao deo predmeta Praktična istraživanja i poslovne veštine za sve studijske programe u trajanju od najmanje dve nedelje. Studentima Fakulteta za turistički i hotelijerski menadžment profesionalna praksa je obavezna i predviđena Nastavnim planom i programom.Za studente III godine praksa će se organizovati u šestom semestru u trajanju od mesec dana (tokom maja). Za studente IV godine organizuje se osmom semestru u trajanju od 6 nedelja (maj-jun)"
+
+  utter_tekuci_racun_upisni_materijal:
+    - text: "Poštovani,
+        Troškove upisnog materijala i osiguranja možete uplatiti na sledeći račun:
+        325-9500700190321-77
+        Napominjemo da upišete broj indeksa kao poziv na broj kako bi novac bio raspoređen na Vaš račun.
+        Srdačan pozdrav"
+
+  utter_dokumentacija_za_upis_vise_godine:
+    - text: "Poštovani,
+        Za upis na višu godinu studija je potrebno:
+        da ste izmirili školarinu za prethodnu godinu,
+        da uplatite 10% školarine za narednu školsku godinu,
+        da uplatite upisni materijal i osiguranje
+        i sa svojim indeksom dođete na šaltere kako biste se upisali.
+        Takođe je potrebno da preko Vašeg E-student naloga izaberete predmete koje ćete slušati naredne godine. Ovo ne važi za studente koji su prešli sa druge visokoškolske ustanove koji se odabir predmeta opredeljuju na šalteru prilikom dolaska na upis
+        Za sve dodatne informacije Vam stojimo na raspolaganju.
+        Srdačan pozdrav"
+
+  utter_placanje_prenetih_ispita:
+    - text: "Poštovani,
+        Ukoliko prenosite neki ispit iz prethodne školske godine, cena školarine za prenete ispite se računa kao polovina cene boda. Iznos koji dobijete saberete sa školarinom za predmete koje prvi put slušate i taj iznos onda čini Vašu ukupnu školarinu .
+        Za sva dodatna pitanja Vam stojimo na raspolaganju.
+        Srdačan pozdrav"
+
+  utter_placanje_po_bodu:
+    - text: "Poštovani,
+        Cene školarina istaknute na sajtu važe za punu godinu studija, odnosno za 60 ESPB bodova. Ukoliko želite da upišete više bodova cena školarine se utvrđujete tako što cenu boda pomonožite sa brojem bodova koje upisujete. Ukoliko neki predmet slušate ponovo, cena boda će biti upola manja.
+        Za sva dodatna pitanja Vam stojimo na raspolaganju.
+        Srdačan pozdrav"
+
+  utter_pocetak_upisa_vise_godine:
+    - text: "Poštovani, upis viših godina kao i obnove okvirno počinju polovimom septembra"
+
+  utter_do_kada_upis_vise_godine:
+    - text: "Poštovani, poželjno je da upis realizujete na vreme kako ne biste bili u zaostatku sa svojim akademskim i Ugovornim obavezama"
+
+  utter_predavanja_oktobar:
+    - text: "Poštovani,
+        Ukoliko ste izabrali predmete na Vašem E-student nalogu, možete pratiti predavanja iako se niste upisali u tekuću školsku godinu. Bitno je napomnuti da ukoliko zvanično neupišete akademsku godinu potpisivanjem Ugovora nćete biti u mogućnosti da ostvarujete Vaša prava i obaveze.
+        Za sve dodatne informacije Vam stojimo na raspolaganju.
+        Srdačan pozdrav"
+
+  utter_vazenje_ispita_iz_prosle_godine:
+    - text: "Poštovani, ostvareni rezultati važe 1 akademsku godinu uz napomenu da predmetni profesor određuje strukturu i način polaganja za predmet na kome je angažovan"
+
+  utter_raspored_ispita_kolokvijuma:
+    - text: "Poštovani,
+        Konkretni datumi ispita objavljuju se na sajtu Vašeg fakulteta
+        par dana pre početka prijave ispita
+        Raspored ispita
+        možete pronaći na sajtu Vašeg fakulteta u kategoriji
+        Studenti -> Rasporedi -> Rasporedi ispitnih rokova
+        Srdačan pozdrav"
+
+  utter_kada_je_koji_rok:
+    - text: "Poštovani,
+        Termini održavanja ispitnih rokova definišu se pre početka školske godine i objavljuju se u okviru Akademskog kalendara na sajtu Vašeg fakulteta. Konkretni datumi ispita objavljuju se na sajtu Vašeg fakulteta par dana pre početka prijave ispita.
+        Akademski kalendar možete pronaći na sajtu Vašeg fakulteta u kategoriji Studenti.
+        Raspored ispita možete pronaći na sajtu Vašeg fakulteta u kategoriji Studenti -> Rasporedi -> Rasporedi ispitnih rokova
+        Srdačan pozdrav"
+
+  utter_oktobarski_rok:
+    - text: "Svi ispitni rokovi za tekuću akademsku godinu su definiani akademskim kalendarom koji možete pronaći na sajtu Univerziteta u sekciji 'Studenti'"
+
+  utter_trajanje_bloka:
+    - text: "Trajanje bloka je definisano rasporedom predavanja koji možete pornaći na sajtu upisanog studijkog programa u sekciji 'Studenti - Rasporedi - Rasporedi predavanja'"
+
+  utter_ispit_strani_jezik:
+    - text: "Poštovani,
+        Strani jezici su dvosemestralni predmeti i slušaju se cele godine, pa tako prvi rok u kom možete polagati ove ispite je junski rok.
+        Za sva dodatna pitanja Vam stojimo na raspolaganju.
+        Srdačan pozdrav"
+
+  utter_raspored_konsultacija:
+    - text: "Poštovani,
+        Raspored konsultacija možete videti na sajtu Vašeg fakulteta u opciji Studenti > raspored > raspored konsultacija
+        Za sva dodatna pitanja Vam stojimo na raspolaganju.
+        Srdačan pozdrav"
+
+  utter_mail_profesora:
+    - text: "Poštovani, mejl profesora možte pronaći na sajtu Univerziteta na opciji 'O Univerzitetu - Nastavni kadar' zatim odabirom profesora Vam se otvara stranica sa mejl adresom"
 
 actions:
   - action_default_fallback
