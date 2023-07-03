@@ -1,25 +1,12 @@
 recipe: default.v1
-assistant_id: 20230323-101956-open-station
+assistant_id: rasa_upis
 language: sr
-pipeline:
-  - name: WhitespaceTokenizer
-  - name: RegexFeaturizer
-  - name: LexicalSyntacticFeaturizer
-  - name: CountVectorsFeaturizer
-  - name: CountVectorsFeaturizer
-    analyzer: "char_wb"
-    min_ngram: 1
-    max_ngram: 4
-  - name: DIETClassifier
-    epochs: 100
-  - name: EntitySynonymMapper
-  - name: ResponseSelector
-    epochs: 100
 
-# Train policies
+pipeline:
+# will be selected by the Suggested Config feature
+
 policies:
-  - name: MemoizationPolicy
-  - name: TEDPolicy
-    max_history: 5
-    epochs: 100
-    constrain_similarities: True
+- name: MemoizationPolicy
+- name: TEDPolicy
+  max_history: 5
+  epochs: 10
