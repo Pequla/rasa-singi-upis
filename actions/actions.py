@@ -1,6 +1,7 @@
 from typing import Any, Text, Dict, List
 
-from rasa_sdk import Action, ConversationPaused, UserUtteranceReverted
+from rasa_sdk import Action
+from rasa.shared.core.events import ConversationPaused, UserUtteranceReverted
 
 
 class ActionDefaultFallback(Action):
