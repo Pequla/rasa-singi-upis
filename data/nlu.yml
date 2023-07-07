@@ -72,6 +72,11 @@ nlu:
       - koliko kosta skolarina
       - koliko košta školarina
       - kolko kosta skolarina
+      - koliko je godina
+      - koliko je godina na softverskom
+      - koliko je godina na it
+      - posto kosta
+      - posto je godina
 
   - intent: same_price_per_year
     examples: |
