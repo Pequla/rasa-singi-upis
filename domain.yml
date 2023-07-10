@@ -70,12 +70,6 @@ responses:
   utter_greet:
     - text: "Kako Vam mogu pomoći?"
 
-  utter_thanks:
-    - text: "Nema na čemu, ukoliko imate još pitanja uvek Vam stojimo na raspolaganju"
-
-  utter_goodbye:
-    - text: "Doviđenja"
-
   utter_iamabot:
     - text: "Ja sam konverzacijski agent studentske službe"
 
