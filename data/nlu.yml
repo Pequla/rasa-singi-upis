@@ -5,16 +5,20 @@ nlu:
     examples: |
       - hej
       - pozdrav
+      - podrav
       - pozz
       - dobar dan
       - dobro jutro
       - dobro veče
       - dobro vece
       - dobardan
+      - dobr dan
       - zdravo
+      - e
       - ej
       - sta ima
       - haj
+      - kako si
 
   - intent: goodbye
     examples: |
@@ -56,11 +60,17 @@ nlu:
   - intent: bot_challenge
     examples: |
       - da li si ti bot
+      - da li si ti robot
+      - da li si robot
       - da li pričam sa pravom osobom
       - da li pricam sa pravom sobom
       - sa kime pricam
       - da li si ti covek
       - da li si ti čovek
+      
+      - ti robot
+      - si li robot
+      - robot
 
   # Pitanja o cenama
 
@@ -77,6 +87,13 @@ nlu:
       - koliko je godina na it
       - posto kosta
       - posto je godina
+      
+      - posto je skolarina na
+      - koliko je skolarina na
+      - posto je godina na
+      - koliko je godina na 
+      - kolk je godina
+      - kolik je godina
 
   - intent: same_price_per_year
     examples: |
@@ -84,23 +101,73 @@ nlu:
       - da li je ista cena za svaku godinu studija
       - dali je cena ista za svaku upisanu godinu
       - dali je ista cena za svaku godinu studija
+      
+      - da li cena ostaje ista za sve godine
+      - da li ce se cena studija menjati
+      - da li ce se cena menjati tokom godine
+      - ce se desiti neke izmene u ceni
+      - hoce li tokom pohadjanja fakulteta biti promene cene studiranja
+      - moze li tokom pohadjanja fakulteta biti promene cene studiranja
+      - hoce li se menjati cena studiranja
+      - moze li se menjati cena studiranja
+      - da li se menja cena godine
+      - ce li se menjati cena godine
+      - moze li se menjati cena godine
+      - da li moze da dodje do promene cene godine
+      - moze li se promeniti cena studiranja
+      - menjane cene tokom studiranja
 
   - intent: pay_in_paychecks
     examples: |
       - da li je moguće plaćanje na rate
-      - da li je može na rate da se plati
+      - da li može na rate da se plati
+      
+      - da li moze odlozeno placanje
+      - da li mogu da pratim na rate
+      - mogu li rate
+      - moze li odlozeno placanje
+      - mogu li mesecno da placam
+      - placanje na mesecnom nivou
+      - moze li placanje na rate
+      - odlozeno placanje
+      - placanje na rate
+      - moz rate
+      - rate
+      - hocu na rate
+      - hocu da placam na rate
+      - zelim da mogu da placam na rate
+      - zelim da placam na rate
+      - mogu li da placam na rate
+      - placanje ratama
 
   - intent: discount_full_payout
     examples: |
-      - da li postoji popust za plaćanje u celosti
+      - da li postoji popust za placanje u celosti
       - kakva je cena za celo placanje
       - kakva je procedura za placanje odjednom
-      - jel može na rate
+      
+      - placanje u celovitosti
+      - celo placanje
+      - cena ukoliko sve placam odjedanput
+      - placanje sve odjedanput
+      - plati sve odjednom
+      - sta ako sve platim
+      - platiti sve odjednom
+      - popust na placanje u celovitosti
 
   - intent: scholarship_includes
     examples: |
-      - šta je sve uključeno u cenu školarine
+      - sta je sve ukljuceno u cenu skolarine
       - sta pokriva cena skolarine
+      
+      - skolarina mi daje sta
+      - sta dobijam skolarinom
+      - u skolarinu spada sta
+      - sta skolarina znaci
+      - sa skolarinom dobijam sta
+      - sta mogu da dobijem sa skolarinom
+      - sa skolarinom dobijam
+      - sta daje skolarina
 
   # Pitanja o prijemnom ispitu
 
@@ -108,22 +175,62 @@ nlu:
     examples: |
       - da li se prijemni ispit placa
       - koliko kosta prijemni ispit
+      
+      - cena prijemnog ispita
+      - sta kosta prijemni ispit
+      - prijemni ispit ima cenu
+      - cena prijemnog ispita
+      - cena prijemnog
+      - prijemni kosta koliko
+      - prijemni kosta
+      - koliko kosta prijemni
+      - prijemni ispit kosta
+      - koja je cena prijemnog ispita
+      - koliko treba da platim prijemni ispit
 
   - intent: admission_exam_start
     examples: |
       - kada pocinje prijemni ispit
       - kako ide prijemni ispit
+      
+      - kad prijemni ispit krece
+      - kad prijemni krece
+      - kada pocinje prijemni ispit
+      - u kom dobu pocinje prijemni ispit
+      - prijemi je kad
+      - prijemni kada krece
+      
 
   - intent: admission_exam_submit
     examples: |
       - kako mogu da se prijavim za prijemni
       - kako se prijaviti za prijemni ispit
+      
+      - kako ide prijava za prijemni
+      - kako mogu raditi prijemni
+      - prijavljivanje za prijemni
+      - prijavljivanje na prijemni
+      - prijemni prijava
 
   - intent: admission_exam_look
     examples: |
       - od cega se sastoji prijemni ispit
       - kako izgleda prijemni ispit
       - sta je sve na prijemnom ispitu
+      
+      - sta ce biti na prijemnom
+      - sta moze biti na prijemnom
+      - prijemni ispit obuhvata sta
+      - sta mogu videti na prijemnom ispitu
+      - prijemni ispit podrazumeva koje gradivo
+      - prijemni ispit podrazumeva koje delove
+      - sta podrazumeva prijemni ispit
+      - izgled prijemno ispita
+      - oblik prijemnog ispita
+      - obuhvat prijemnog ispita
+      - prijemni ispit obuhvata sta
+      - prijemni ispit obuhvata koje gradivo
+      - prijemni ispit obuhvata koje delove
 
   - intent: admission_exam_materials
     examples: |
@@ -131,6 +238,17 @@ nlu:
       - gde su materijali za pripremu prijemnog ispita
       - kako da pronadjem materijale za pripremu prijemnog ispita
       - kako da se pripremim za prijemni ispit
+      
+      - pripremam se kako za prijemni
+      - gde su pripreme za prijemni
+      - gde su materiji za prijemni ispit
+      - koje znaje treba za polaganje prijemnog ispita
+      - sta trebam znati da bi polagao prijemni
+      - sta je potrebno znati za prijemni
+      - kako da se spremim za prijemni
+      - koji su materijali sa prijemni
+      - materijali za prijemni
+      - prijemni ispit materijali
 
   # Opsta pitanja o studiranju
 
@@ -138,42 +256,144 @@ nlu:
     examples: |
       - koliko traju studije
       - koliko se dugo studira
+      
+      - trajanje studija
+      - koliko studije traju
+      - koliko godina su studije
+      - studije trajanje u godinama
+      - koliko su dugacke studije
 
   - intent: graduation_title
     examples: |
       - koje zvanje se stice nakon zavrsenog studijskog programa
       - kakva je titula nakon zavrsenih studija
       - kako cu se zvati nakon diplomiranja
+      
+      - kako se zovem nakon studija
+      - koja mi je titula nakon studija
+      - kako ce me ljudi zvati nakon studija
+      - zvanje posle studija
+      - naziv posle studija
+      - posle studija se zovem kako
+      - kako me zovu posle studija
+      
+      - kako se zovem nakon faksa
+      - koja mi je titula nakon faksa
+      - kako ce me ljudi zvati nakon faksa
+      - zvanje posle faksa
+      - naziv posle faksa
+      - posle faksa se zovem kako
+      - kako me zovu posle faksa
+      
+      - kako se zovem nakon diplomiranja
+      - koja mi je titula nakon diplomiranja
+      - kako ce me ljudi zvati nakon diplomiranja
+      - zvanje posle diplomiranja
+      - naziv posle diplomiranja
+      - posle diplomiranja se zovem kako
+      - kako me zovu posle diplomiranja
 
   - intent: study_acreditation
     examples: |
       - da li je studijski program akreditovan
       - da li su svi studijski programi akreditovani
       - kakva je situacija za akreditacijom
+      
+      - akreditacija
+      - akreditovani
+      - da li smo akreditovani
+      - da li immamo akreditaciju
+      - da li immamo akreditaciju za
+      - da li je akreditovano
 
   - intent: employed_student_support
     examples: |
       - da li postoji podrska zaposlenih studenata
       - da li postoji podrska za zaposlene studenete
       - da li postoje termini za zaposlene studente
+      
+      - ima ju li zaposleni studenti podrsku
+      - podrska za zaposlene studente
+      - da li zaposleni studenti imaju podrsku
+      - da li pruzate podrsku za zaposlene studente
+      - ima li podrska za zaposlene studente
+      - ima li pomoci za zaposlene studente
+      - da li postoje posebni ternimi za zaposlene studente
+      - termini za zaposlene studente
+      - termini zaposleni studenti
+      - podrska za zaposlene
+      - pomoc za zaposlene studente
+      - zaposleni pomoc
 
   - intent: online_exams
     examples: |
       - da li se ispiti mogu polagati onlajn
       - da li se ispiti mogu polagati online
       - da li mogu ploagati ispit online
+      
+      - moze li ispit onlajn
+      - moze li ispit preko interneta
+      - mogu li onlajn polagati
+      - mogu li preko interneta da polazem
+      - da li se ispiti mogu polagati preko interneta
+      - da li mogu ploagati ispit preko interneta
+      - ispit internet
+      - ispit onlajn
+      - ispiti onlajn
+      - preko interneta ispit
+      - polaganje ispita onlajn
+      - polaganje ispita preko interneta
+      - moze li preko interneta da se polaze ispit
+      - mogu li ja preko interneta da polazem ispit
+      - ispiti mogu onlajn
 
   - intent: internship
     examples: |
       - da li je praksa obavezna
       - da li je praksa obezbenjena od strane fakulteta
       - kakva je situacija sa praksom
+      
+      - da li nudite praksu
+      - da li praksa postoji kod vas
+      - sta podrazumevate pod praksom
+      - praksa je sta
+      - koju praksu nudite
+      - da li nudite praksu
+      - da li dajete praksu
+      - koju praksu nudite
+      - koju praksu dajete
+      - da li imamo praksu
+      - da li dobijamo praksu
+      - nudite li praksu
+      - sta je sa praksom
+      - informacije o praksi
+      - da li imate informacije o praksi
+      - informacija o obaveznoj praksi
+      - sta je obaveznom praksom
 
   - intent: employment_help
     examples: |
       - da li Univerzitet pomaze prilikom zaposlenja nakon studija
       - da li je omoguceno zaposlenje
       - kakva je situacija sa poslom
+      
+      - da li sa fakultetom modu da dobijem posao
+      - posao posle fakulteta
+      - sta je sa poslom posle fakulteta
+      - posao nakon fakulteta
+      - kakve su mi sanse posle fakulteta da pronadjem posao
+      - da li lako mogu da pronadjem posao nakon fakulteta
+      - da li ima mogucnosti da posle fakulteta dobijem posao
+      - da li ce mi fakultet pomocu da dobijem posao
+      - nakon zavrsetka fakulteta da li cu dobiti posao
+      - da li ce biti posla nakon fakulteta
+      - naci posao
+      - pronalazak posla posle fakulteta
+      - mogu li naci posao posle fakulteta
+      - koje prilike za posao imam posle fakulteta
+      - prilike za posao posle fakulteta
+      - prilik za posao
+      - posao nakon fakulteta
 
   - intent: admission_start
     examples: |
@@ -181,12 +401,30 @@ nlu:
       - kada pocinje upis
       - do kada je moguce da se upisem
       - do kada je moguce upisati
+      
+      - kada mozemo upisati
+      - kad upis pocinje
+      - kada upisati
+      - do kad mogu upisati
 
   - intent: admission_documentation
     examples: |
       - koja je dokumntacija potrebna za upis
       - sta je sve potrebno za upis
       - kakva dokumenta su mi potrebna za upis
+      
+      - sta mi treba za upis
+      - sta mi od dokumenata treba za upis
+      - upisni materijali
+      - upisni materijal
+      - upisna dokumenta
+      - dokumenta za upis
+      - upisna dokumentacija
+      - dokumenti za upis
+      - potrebno za upis
+      - sta od materijala za upis
+      - sta mi treba za upis
+      - sta mi od dokumentacije treba za upis
 
   # Prelasci sa drugih fakulteta
 
@@ -195,17 +433,46 @@ nlu:
       - koja je procedura za prelazak sa drugog fakulteta
       - kako mogu da predjem sa drugog fakulteta
       - koji moze da se predje sa drugog fakulteta
+      
+      - prelazak sa drugog fakulteta
+      - sta ako prelazim sa drugog fakulteta
+      - kako da predjem sa drugog fakulteta
+      - prelaz sa drugog fakulteta
+      - prelazim sa drugog fakulteta
+      - kako da predjem sa drugog fakulteta
+      - hocu da predjem na vas fakultet
+      - zelim da predjem na vas fakultet
+      - prelaz sa drugog fakulteta
 
   - intent: faculty_change_year_condition
     examples: |
       - da li je potrebno da se stekne uslov na drugoj ustanovi da bi se upisala godina kod nas
       - da li je neophodno da se stekne uslov da bi se upisala godina kod nas
+      
+      - ima li neki uslov za prelaz fakulteta
+      - ima li neki uslov za prelaz sa drugog fakulteta
+      - sta treba od uslova za prelaz sa drugog fakulteta
+      - sta treba za prelaz sa drugog fakulteta
+      - sta mi treba da predjem sa drugog fakulteta
+      - uslovi za prelazak
+      - uslov za prelaz fakulteta
+      - uslov za prelaz sa drugo fakulteta
+      - da li treba da se stekne uslov za prelaz
+      - neophodan uslov za upis godine
 
   - intent: faculty_change_espb
     examples: |
       - da li se placa prenos espb poena
       - koliko kosta prenos espb poena
       - posto je prenos espb poena
+      
+      - prenos espb poena
+      - prenos espb cena
+      - cena za prenos espb poena
+      - da li mogu da prenesem espb poene
+      - kako ide prenos espb poena
+      - kako da prenesem espb poene
+      - zelim da prenesem espb poene
 
   # Opsta pitanja vec upisani studenti
 
@@ -215,80 +482,270 @@ nlu:
       - kada radi studentska sluzba
       - od kada radi studentska sluzba
       - do kada radi studentska sluzba
+      
+      - radno vreme studentske sluzbe
+      - u koje vreme radi studentska sluzba
+      - rad studentske sluzbe
+      - vreme rada studentske sluzbe
 
   - intent: euro_exchange_rate
     examples: |
       - po kom kursu evra se placa skolarina
       - koji je kurs evra
       - kurs evra molim
+      
+      - kurs evra
+      - kurs eura
+      - euro
+      - evro
+      - koliki je kurs evra
+      - koliki je kurs eura
+      - trenutni kurs evra
+      - koliko je kurs
+      - koliko je trenutan kurs evra
 
   - intent: bank_account
     examples: |
       - na koji tekuci racun da uplatim skolarinu
       - koji su tekuci racuni
       - spisak svih tekucih racuna
+      
+      - tekuci racun
+      - tekuci racuni
+      - koju su svi tekuci racuni
+      - daj mi sve tekuce racune
+      - svi tekuci racuni
 
   - intent: certificate_of_study
     examples: |
       - sta je potrebno za izdavanje potvrde o studiranju
       - gde mogu da izvadim potvrdu o studiranju
       - kako da izvadim potvrdu o studiranju
+      
+      - potvrda studiranja
+      - izvaditi potvrdu studiranja
+      - kako izvaditi potvrdu studiranja
+      - gde izvaditi potvrdu studiranja
+      - gde preuzeti potvrdu studiranja
+      - preuzeti potvrdu studiranja
+      - uzeti potvrdu studiranja
+      - izvaditi potvrdu studiranja
 
   - intent: certificate_of_passed_exams
     examples: |
       - sta je potrebno za izdavanje uverenja o polozenim ispitima
       - gde mogu da izvadim uverenje o polozenim ispitima
       - kako da izvadim uverenje o polozenim ispitima
+      
+      - uverenje o polozenim ispitima
+      - uverenje o polozenom ispitu
+      - uverenje o ispitu
+      - uverenje ispit
+      - uverenje ispiti
+      - uverenje o ispitima
+      - uverenje o ispitu
+      - kako izvaditi uverenje o polozenom ispitu
+      - gde izvaditi uverenje o polozenom ispitu
+      - gde preuzeti uverenje o polozenom ispitu
+      - kako izvaditi uverenje o polozenim ispitima
+      - gde izvaditi uverenje o polozenim ispitima
+      - gde preuzeti uverenje o polozenim ispitima
+      - zelim uverenje o polozenmo ispitu
+      - urevernje o ispitu
+      - zalim da uzmem uverenje o ispitu
+      - zalim da uzmem uverenje o polozenom ispitu
 
   - intent: exam_registration
     examples: |
       - kako se prijavljuje ispit
       - gde da prijavim ispit
       - kako da prijavim ispit
+      
+      - prijaviti ispit
+      - prijavi ispit
+      - zelim da prijavim ispit
+      - reci mi kako da prijavim ispit
 
   - intent: subsequent_exam_registration
     examples: |
       - kako se naknadno prijavljuje ispit
       - gde da naknadno prijavim ispit
       - kako da naknadno prijavim ispit
+      
+      - naknadna prijava ispita
+      - prijaviti naknadno ispit
+      - prijaviti ispite naknadno
+      - kasno sam prijavio ispit
+      - kasnija prijava ispita
+      - kasnim sa prijavom ispita
+      - kasna prijava ispita
 
   - intent: singimail_login
     examples: |
       - kako da se prijavim na singimejl
       - kako da se prijavim na singimail
       - gde mogu da se ulogijem na singimail
+      
+      - prijava na singimail
+      - kako se prijaviti na singimail
+      - prijavljivanje na singimail
+      - logovanje na singimail
+      - singimail logovanje
+      - ulogovati se na singimail
+      - singimail prijava
+      - prva prijava na singimail
+      - prvi put prijava na singimail
+      - prijavljivanje na singimail
+      - gde da se ulogujem na singimail
+      
+      - prijava na singimejl
+      - kako se prijaviti na singimejl
+      - prijavljivanje na singimejl
+      - logovanje na singimejl
+      - singimejl logovanje
+      - ulogovati se na singimejl
+      - singimejl prijava
+      - prva prijava na singimejl
+      - prvi put prijava na singimejl
+      - prijavljivanje na singimejl
+      - gde da se ulogujem na singimejl
+      
+      - prijava na studentski mejl
+      - kako se prijaviti na studentski mejl
+      - prijavljivanje na studentski mejl
+      - logovanje na studentski mejl
+      - studentski mejl logovanje
+      - ulogovati se na studentski mejl
+      - studentski mejl prijava
+      - prva prijava na studentski mejl
+      - prvi put prijava na studentski mejl
+      - prijavljivanje na studentski mejl
+      - gde da se ulogujem na studentski mejl
 
   - intent: estudent_login
     examples: |
       - kako da se prijavim na estudent nalog
       - kako da se prijavim na estudent nalog
       - gde mogu da se ulogijem na estudent nalog
+      
+      - prijava na estudent
+      - kako se prijaviti na estudent
+      - prijavljivanje na estudent
+      - logovanje na estudent
+      - estudent logovanje
+      - ulogovati se na estudent
+      - estudent prijava
+      - prva prijava na estudent
+      - prvi put prijava na estudent
+      - prijavljivanje na estudent
+      - gde da se ulogujem na estudent
 
   - intent: singipay
     examples: |
       - kako se uplacuje novac preko singipay aplikacije
       - kako se uplacuje novac preko singipej aplikacije
       - kako da uplatim novac na singipay platformu
-      - gde da uplatim novac na singipay
+      - kako da uplatim novac na singipej platformu
+      - gde da uplatim novac na singipej
+      
+      - singipay uplata
+      - uplata na singipay
+      - kako da uplatim na singipay
+      - uplatiti na singipay
+      - kako se koristi singipay
+      - koristiti singipay
+      - singipay aplikacija
+      
+      - singipej uplata
+      - uplata na singipej
+      - kako da uplatim na singipej
+      - uplatiti na singipej
+      - kako se koristi singipej
+      - koristiti singipej
+      - singipej aplikacija
 
   - intent: school_year_price_increase
     examples: |
       - da li ce se povecati skolarina za vec upisane studenete
       - da li vec upisani studenti ce imati uvecanu skolarinu
       - kako povecanje cena skolarine utice na vec postojece studenete
+      
+      - ako sam vec upisao fakultet da li ce se cena skolarine podici
+      - ako sam vec upisao fakultet da li se moze promeniti cena skolarine
+      - promena cene skolarine ako sam upisan
+      - ako sam vec upisan godinu da li se moze promeniti cena skolarine
+      - promena cena skolarine ako sam vec upisan
+      - da moze biti promena cena skolarine za vec upisane studente
+      - da li moze doci do promene cene skolarine z vec upisane studente
 
   - intent: odbrana_zavrsnog_rada
     examples: |
       - koja je procedura za odbranu zavrsnog rada
+      - koja je procedura za odbranu master rada
+      - koja je procedura za odbranu diplomskog rada
       - koja je procedura za prijavu odbrane zavrsnog rada
+      - koja je procedura za prijavu odbrane diplomskog rada
+      - koja je procedura za prijavu odbrane master rada
       - kako da prijavim odbranu zavrsnog rada
+      - kako da prijavim odbranu diplomskog rada
+      - kako da prijavim odbranu master rada
       - kako da odbranim zavrsni rad
+      - kako da odbranim diplomski rad
+      - kako da odbranim master rad
+      
+      - kakva je procedura za zavrsni rad
+      - odbrana zavrsnog rada
+      - kako da branim moj zavrsni rad
+      - kako da prijavim odbranu mog zavrsnog rada
+      - koja je procedura za prijavu moje odbrane zavrsnog rada
+      - koja je procedura za prijavu odbrane mog zavrsnog rada
+      
+      - kakva je procedura za diplomski rad
+      - odbrana diplomskog rada
+      - kako da branim moj diplomski rad
+      - kako da prijavim odbranu mog diplomskog rada
+      - koja je procedura za prijavu moje odbrane diplomskog rada
+      - koja je procedura za prijavu odbrane mog diplomskog rada
+      
+      - kakva je procedura za master rad
+      - odbrana master rada
+      - kako da branim moj master rad
+      - kako da prijavim odbranu mog master rada
+      - koja je procedura za prijavu moje odbrane master rada
+      - koja je procedura za prijavu odbrane mog master rada
 
   - intent: singimail_login_fail
     examples: |
       - zasto ne mogu da se ulogujem na singimail adresu
       - zbog cega ne mogu da se ulogujem na singimejl adresu
       - zbog cega ne mogu da se ulogujem na singimail adresu
+      
+      - ne mogu da se ulogujem na singimail
+      - nece da mi se uloguje na singimail
+      - singimej mi ne dozvoljava da se ulogujem
+      - logovanje na singimail ne radi
+      - meni ne radi logovanje za singimail
+      - zasto ne radi logovanje na singimail
+      - zasto mi ne radi logovanje na singimail
+      - nece logovanje na singimail
+      
+      - ne mogu da se ulogujem na singimejl
+      - nece da mi se uloguje na singimejl
+      - singimej mi ne dozvoljava da se ulogujem
+      - logovanje na singimejl ne radi
+      - meni ne radi logovanje za singimejl
+      - zasto ne radi logovanje na singimejl
+      - zasto mi ne radi logovanje na singimejl
+      - nece logovanje na singimejl
+      
+      - ne mogu da se ulogujem na studentski mejl
+      - nece da mi se uloguje na studentski mejl
+      - singimej mi ne dozvoljava da se ulogujem
+      - logovanje na studentski mejl ne radi
+      - meni ne radi logovanje za studentski mejl
+      - zasto ne radi logovanje na studentski mejl
+      - zasto mi ne radi logovanje na studentski mejl
+      - nece logovanje na studentski mejl
 
   - intent: msteams_login_fail
     examples: |
@@ -300,108 +757,296 @@ nlu:
       - zbog cega ne mogu da se ulogujem na mstims nalog
       - zbog cega ne mogu da se ulogujem na teams nalog
       - zbog cega ne mogu da se ulogujem na msteams nalog
+      
+      - ne mogu da se ulogujem na teams
+      - nece da mi se uloguje na teams
+      - teams mi ne dozvoljava da se ulogujem
+      - logovanje na teams ne radi
+      - meni ne radi logovanje za teams
+      - zasto ne radi logovanje na teams
+      - zasto mi ne radi logovanje na teams
+      - nece logovanje na teams
+      
+      - ne mogu da se ulogujem na msteams
+      - nece da mi se uloguje na msteams
+      - msteams mi ne dozvoljava da se ulogujem
+      - logovanje na msteams ne radi
+      - meni ne radi logovanje za msteams
+      - zasto ne radi logovanje na msteams
+      - zasto mi ne radi logovanje na msteams
+      - nece logovanje na msteams
 
   - intent: prijava_nesrecnog_slucaja
     examples: |
       - koja je procedura i potrebna dokumentacija za prijavu nesrecnog slucaja
       - kako da prijavim nesrecni slucaj
+      
+      - hocu da prijavim nesrecan slucaj
+      - nesrecan slucaj
+      - sta je potrebno da prijavim nesrecan slucaj
+      - procedura za prijavu nesrecnog slucaja
 
   - intent: sistem_ubrzanog_studiranja
     examples: |
       - sta podrazumeva sistem ubrzanog studiranja
       - kako funkcionise ubrzano studiranje
+      
+      - sta je ubrzano studiranje
+      - da li postoji ubrzano studiranje
+      - koja je procedura za ubrzano studiranje
+      - kako da se ubrzano studira
+      - ubrzano studiranje
+      - kako funkcionise ubrzano studiranje
+      - kako studirati ubrzano
 
   - intent: razmena_studenata
     examples: |
       - kako se mozemo prijaviti za razmnenu studenata
       - kako radi razmena studenata
+      
+      - razmena studenata
+      - kako da budem student na razmeni
+      - kako funkcionise razmena studenata
+      - zelim da budem student na razmeni
+      - student na razmeni
 
   - intent: saradnja_sa_stranim_univerzitetima
     examples: |
       - da li imamo saradnju sa univerzitetima u inostranstvu i gde mogu pronaci vise informacija
       - da li postoji saradnja sa stranim univerzitetima
       - gde da dobijem vise informacija o saradji sa stranim univerzitetima
+      
+      - da li saradjujemo sa stranim univerzitetima # Moramo biti mentalno retardirani. Oni ne znaju razliku Univerziteta i fakulteta. Napredne stvari (╯°□°）╯︵ ┻━┻
+      - saradnja sa stranim univerzitetima
+      - saradjivati sa drugim univerzitetima
+      - saradnja sa drugim univerzitetima
+      - postoji li saradnja sa stranim univerzitetima
+      - strani univerziteti
+      
+      - da li saradjujemo sa stranim fakultetima 
+      - saradnja sa stranim fakultetima
+      - saradjivati sa drugim fakultetima
+      - saradnja sa drugim fakultetima
+      - postoji li saradnja sa stranim fakultetima
 
   - intent: evidencija_uplata
     examples: |
       - da li je evidentirana uplata
       - koja je procedura ukoliko nije evidentirana uplata
+      
+      - kao se evidentira uplata
+      - evidencija uplate
+      - kako da se vidi evidencije uplate
+      - videti evicenciju uplate
+      - zelim da vidim evidenciju uplate
+      - nije mi evidentirana uplata
 
   - intent: skolarina_dugovanje
     examples: |
       - da li mi mozete reci koliko jos dugujem za skolarinu
       - kako mogu da proverim moje dugovanje
       - koliko dugujem za skolarinu
+      
+      - koliko dugujem       # HAHA
+      - koliko para dugujem  # HAHA
+      - zelim da proverim dugovanje
+      - koliko je moje trenutno dugovanje
+      - koliko je moje dugovanje
+      - koliko skolarine dugijem
+      - dugujem skolarinu
+      - da li dugujem skolarinu
 
   - intent: podnosenje_molbe
     examples: |
       - kako da podnesem molbu
       - gde mogu da podnesem molbu
+      
+      - zelim da podnesem molbu
+      - zelim da napravim molbu
+      - kako da napravim molbu
+      - treba da napisem molbu
+      - napisati molbu
+      - kao da napisem molbu
+      - trebam da podnesem molbu
+      - podnosenje molbe
+      - trebalo bi da podnesem molbu
+      - kako podneti molbu
+      - gde bi trebalo da podnesem molbu
 
   - intent: molba_odgovor
     examples: |
       - kako da procitam odgovor
       - gde mogu da procitam odgovor na molbu
+      
+      - odgovor na moju molbu
+      - gde da procima odgovor na molbu
+      - odgovor za moju molbu
 
   - intent: molba_dopuna
     examples: |
       - kako da dopunim molbu
       - gde mogu da dopunim molbu
+      
+      - zelim da dopunim molbu
+      - zelim da dopunim svoju molbu
+      - kako da dopunim svoju molbu
+      - dopuna molbe
+      - dopuna podnete molbe
 
   - intent: ispis_sa_fakulteta
     examples: |
       - koja je procedura za ispis sa fakulteta
       - kako mogu da se ispisem sa fakulteta
+      
+      - zelim da se ispisem iz fakulteta # Jer ne mogu da polozim Operativne sisteme, Baze i Praktikum kod profesora Taira ¯\_(ツ)_/¯
+      - kako ide ispis iz fakulteta
+      - kako da ispisem fakultet
+      - kako napustiti fakultet
+      - procedura za ispis sa fakulteta
+      - ispisi se iz fakulteta
+      - hocu da se ispisem sa fakulteta
+      - ispis sa fakulteta
 
   - intent: trajanje_prakse
     examples: |
       - koloko traje praksa
       - koliko je trajanje prakse
-
+      
+      - trajanje prakse
+      - hocu da znam koliko traje praksa
+      - kazi mi koliko traje praksa
+      
   # Upis naredne godine
 
   - intent: tekuci_racun_upisni_materijal
     examples: |
       - na koji tekuci racun se uplacuje upisni materijal i osiguranje
       - gde mogu da uplatim novac za upisni materijal i osiguranje
+      
+      - tekuci racun za upisni materijal
+      - na koju racun uplacujem za upisni materijal
+      - gde uplacujem za upisni materijal
+      - racun za uplatu upisnog materijala
+      - tekuci racun za osiguranje
+      - na koju racun uplacujem za osiguranje
+      - gde uplacujem za osiguranje
+      - racun za uplatu osiguranja
+      - tekuci racun za upisni materijal i osiguranje
+      - na koju racun uplacujem za upisni materijal i osiguranje
+      - gde uplacujem za upisni materijal i osiguranje
+      - racun za uplatu upisni materijal i osiguranje 
 
   - intent: dokumentacija_za_upis_vise_godine
     examples: |
       - sta je potrebno od dokumentacije za upis na visu godinu studija
       - kakva je dokumentacija potrebna za upis na vise godine studija
+      
+      - dokumenta za upis na visu godinu
+      - dokumenta za upis na sledecu godinu
+      - dokumenta za upis na narednu godinu
+      - dokumentacija za upis u narednu godinu
+      - dokumentacija za upis na visu godinu
+      - dokumentacija za upis u sledecu godinu
+      - sta mi je potrebno od dokumenata za upis u narednu godinu
+      - sta mi je potrebno od dokumenata za upis u sledecu godinu
+      - sta mi je potrebno od dokumenata za upis na visu godinu
 
   - intent: placanje_prenetih_ispita
     examples: |
       - kako se placaju preneti ispiti
       - na koji nacin mogu preneti ispit
+      
+      - placanje prenetih ispita
+      - da li se preneti ispiti placaju
+      - na koji naci se placaju preneti ispiti
+      - da li se prenos ispita placa
+      - da li postoji placanje za prenete ispite
+      - placanje prebacenih ispita
+      - da li placam ispite ako ih prenesem
+      - placanje ispita ako ih prenesem iz godine
+      - prenosim ispite iz 1 godine
+      - prenosim ispite iz 2 godine
+      - prenosim ispite iz 3 godine
+      - prenosim 1 ispit iz godine
+      - prenosim 2 ispit iz godine
+      - prenosim 3 ispit iz godine
+      - prenosim 4 ispit iz godine
+      - prenosim 5 ispit iz godine
 
   - intent: placanje_po_bodu
     examples: |
       - sta znaci placanje po bodu
       - kako funkcionise placanje po bodu
+      - sta znaci placanje po espb bodu
+      - kako funkcionise placanje po espb bodu
+      
+      - placanje po bodu
+      - placanje po espb bodu
+      - sta podrazumeva placanje po espb bodu
+      
+      - sta znaci placanje po poenu
+      - kako funkcionise placanje po poenu
+      - sta znaci placanje po espb poenu
+      - kako funkcionise placanje po espb poenu      
+      - placanje po poenu
+      - placanje po espb poenu
+      - sta podrazumeva placanje po espb poenu
+      
 
   - intent: pocetak_upisa_vise_godine
     examples: |
       - kada pocinje upis na vise godine
       - kada mogu upisati sledecu godinu
       - kada mogu upisati visu godinu
+      
+      - kada mogu upisati narednu godinu
+      - kada mogu upisati novu godinu
+      - pocetak upisa na nove godine
+      - pocetak upisa na slecedu godinu
+      - pocetak upisa na narednu godinu
 
   - intent: do_kada_upis_vise_godine
     examples: |
       - do kada mogu upisati narednu godinu
       - koji je poslednji rok za upis naredne godine
       - dokle mogu da upisem narednu godinu
+      
+      - do kada mogu da upisem sledecu godinu
+      - do kada mogu da upisem sledecu godinu
+      - poslednji rok za upis za sledecu godinu
+      - poslednji rok za upis za narednu godinu
+      - do kada mogu da upisem sledecu godinu
+      - do kada mogu da upisem narednu godinu
+      - posledji rok za upis u narednu godinu
+      - posledji rok za upis u sledecu godinu
+      - do kad mogu upisati sledecu godinu
 
   - intent: predavanja_oktobar
     examples: |
       - da li mogu da slusam predavanja u oktobru ako se nisam upisao
-      - kako mogu da pratim predavanja u oktobru
+      - kako mogu da pratim predavanja u oktobru ako nisam polozio sve ispita
+      
+      - ako nisam dao sve ispite da li mogu da slusam u oktobru nastavu
+      - slusanje nastave u oktobru ako nisam polozio sve ispite
+      - slusanje nastave u oktobru ako nisam polozio sve ispite iz prosle godine
+      - ostalo ni je nekoliko ispita iz prosle godine da li sada mogu da slusam nastavu u oktobru
+      - nisam polozio neke ispite da li mogu da slusam nastavu u oktobru
+      - ako ne polozim ispite u da li mogu da slusam nastavu u oktobru
+      - nisam polozio ispit iz da li mogu da slusam nastavu u oktobru
 
   - intent: vazenje_ispita_iz_prosle_godine
     examples: |
       - da li mi se vazi deo ispita od prosle godine
       - da li mi se vazi ostvareni rezultat naredne skolske godine
       - da li rezultat ispita ostaje do sledece godine
+      
+      - da li mi se vaze poeni koje sam osvojio prosle godine
+      - poeni osvojeni prosle godine
+      - sta je sa mojim poenima iz prosle godine
+      - da li i dalje imam poene iz prosle godine
+      - da li mi ostaju poeni iz predmenta iz prosle godine
+      - da li mi ostaju poeni iz
+      - poeni koje sam sad osvojio da li vaze u sledecoj godini # Previse pitanja ne mogu da smislim
 
   # Pitanja vezana za nastavu
 
@@ -411,11 +1056,24 @@ nlu:
       - gde se nalazi raspored kolokvijuma
       - gde mogu da pronadjem raspored ispita
       - gde mogu da pronadjem raspored kolokvijuma
+      
+      - rasporedi kolokvijuma
+      - rasporedi ispita
+      - rasporedi ispita i kolokvijuma
+      - gde naci raspored kolokvijuma
+      - gde naci raspored ispita
+      - gde naci raspored ispita i kolokvijuma
+      - rasporedi svih kolokvijuma
+      - rasporedi svih ispita
+      - rasporedi svih ispita i kolokvijuma
 
   - intent: kada_je_koji_rok
     examples: |
       - kada je koji ispiti rok
       - gde mogu videti kada je koji rok
+      
+      - kada koji rok traje
+      - kada je koji rok
 
   - intent: oktobarski_rok
     examples: |
@@ -423,6 +1081,12 @@ nlu:
       - da li ce biti vanredni oktobarski rok
       - kada je oktobarski rok
       - da li ce biti oktobarskog roka
+      
+      - okobarski rok
+      - dodatni rok u oktobru
+      - da li postoji dodatni rok u oktobru
+      - vanredni rok u oktobru
+      - oktobarski vanredni rok
 
   - intent: trajanje_bloka
     examples: |
@@ -430,7 +1094,7 @@ nlu:
       - trajanje bloka
       - koliko dugo traje blok
 
-  - intent: ispit_strani_jezik
+  - intent: ispit_strani_jezik # Zasto ovo postoji
     examples: |
       - kada mozemo prvi put da prijavimo ispit iz engleskog jezika
       - kada mozemo prvi put da prijavimo ispit iz stranog jezika
@@ -445,10 +1109,25 @@ nlu:
       - kada mogu da odem na konsultacije
       - raspored konsultacija
       - gde mogu da pronadjem termine konsultacija
+      
+      - koji su termini konsultacija za profesora
+      - konsultacije
+      - gde pisu konsultacije
+      - gde su sva vremena konsultacija
+      - gde pisu konsultacije za odredjenog profesora.
+      - termini konsultacija
 
   - intent: mail_profesora
     examples: |
       - kako izgleda mejl profesora
+      - kako izgleda meil profesora
       - kako izgleda email profesora
       - format profesorskog mejla
+      
       - profesorski email
+      - profesorski emejl
+      - profesorski mail
+      - email profesora
+      - emejl profesora
+      - mail profesora
+      - mejl profesora
