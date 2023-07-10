@@ -6,16 +6,6 @@ rules:
       - intent: greet
       - action: utter_greet
 
-  - rule: rule_goodbye
-    steps:
-      - intent: goodbye
-      - action: utter_goodbye
-
-  - rule: rule_thanks
-    steps:
-      - intent: thanks
-      - action: utter_thanks
-
   - rule: rule_bot_challenge
     steps:
       - intent: bot_challenge

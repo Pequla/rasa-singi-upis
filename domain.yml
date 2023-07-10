@@ -2,10 +2,6 @@ version: "3.1"
 
 intents:
   - greet
-  - goodbye
-  - affirm
-  - thanks
-  - deny
   - bot_challenge
   - scholarship_price
   - same_price_per_year

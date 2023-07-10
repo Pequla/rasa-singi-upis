@@ -5,57 +5,16 @@ nlu:
     examples: |
       - hej
       - pozdrav
-      - podrav
       - pozz
       - dobar dan
       - dobro jutro
       - dobro veče
       - dobro vece
       - dobardan
-      - dobr dan
       - zdravo
-      - e
       - ej
       - sta ima
       - haj
-      - kako si
-
-  - intent: goodbye
-    examples: |
-      - vidimo se
-      - prijatno
-      - vidimose
-      - dovidjenja
-      - dovi djenja
-      - doviđenja
-      - dovi đenja
-      - prijatan dan
-      - prijatno veče
-      - prijatno vece
-      - hvala i doviđenja
-
-  - intent: affirm
-    examples: |
-      - da
-      - tako je
-      - takoje
-      - slazem se
-      - slažem se
-      - potvrđujem
-      - potvrdjujem
-      - ok
-      - d
-      - jeste
-
-  - intent: deny
-    examples: |
-      - ne
-      - n
-
-  - intent: thanks
-    examples: |
-      - hvala
-      - hvl
 
   - intent: bot_challenge
     examples: |
@@ -67,7 +26,6 @@ nlu:
       - sa kime pricam
       - da li si ti covek
       - da li si ti čovek
-      
       - ti robot
       - si li robot
       - robot
@@ -87,7 +45,6 @@ nlu:
       - koliko je godina na it
       - posto kosta
       - posto je godina
-      
       - posto je skolarina na
       - koliko je skolarina na
       - posto je godina na
@@ -101,7 +58,6 @@ nlu:
       - da li je ista cena za svaku godinu studija
       - dali je cena ista za svaku upisanu godinu
       - dali je ista cena za svaku godinu studija
-      
       - da li cena ostaje ista za sve godine
       - da li ce se cena studija menjati
       - da li ce se cena menjati tokom godine
@@ -121,7 +77,6 @@ nlu:
     examples: |
       - da li je moguće plaćanje na rate
       - da li može na rate da se plati
-      
       - da li moze odlozeno placanje
       - da li mogu da pratim na rate
       - mogu li rate
@@ -145,7 +100,6 @@ nlu:
       - da li postoji popust za placanje u celosti
       - kakva je cena za celo placanje
       - kakva je procedura za placanje odjednom
-      
       - placanje u celovitosti
       - celo placanje
       - cena ukoliko sve placam odjedanput
@@ -159,7 +113,6 @@ nlu:
     examples: |
       - sta je sve ukljuceno u cenu skolarine
       - sta pokriva cena skolarine
-      
       - skolarina mi daje sta
       - sta dobijam skolarinom
       - u skolarinu spada sta
@@ -175,7 +128,6 @@ nlu:
     examples: |
       - da li se prijemni ispit placa
       - koliko kosta prijemni ispit
-      
       - cena prijemnog ispita
       - sta kosta prijemni ispit
       - prijemni ispit ima cenu
@@ -192,20 +144,17 @@ nlu:
     examples: |
       - kada pocinje prijemni ispit
       - kako ide prijemni ispit
-      
       - kad prijemni ispit krece
       - kad prijemni krece
       - kada pocinje prijemni ispit
       - u kom dobu pocinje prijemni ispit
       - prijemi je kad
       - prijemni kada krece
-      
 
   - intent: admission_exam_submit
     examples: |
       - kako mogu da se prijavim za prijemni
       - kako se prijaviti za prijemni ispit
-      
       - kako ide prijava za prijemni
       - kako mogu raditi prijemni
       - prijavljivanje za prijemni
@@ -217,7 +166,6 @@ nlu:
       - od cega se sastoji prijemni ispit
       - kako izgleda prijemni ispit
       - sta je sve na prijemnom ispitu
-      
       - sta ce biti na prijemnom
       - sta moze biti na prijemnom
       - prijemni ispit obuhvata sta
@@ -238,7 +186,6 @@ nlu:
       - gde su materijali za pripremu prijemnog ispita
       - kako da pronadjem materijale za pripremu prijemnog ispita
       - kako da se pripremim za prijemni ispit
-      
       - pripremam se kako za prijemni
       - gde su pripreme za prijemni
       - gde su materiji za prijemni ispit
@@ -256,7 +203,6 @@ nlu:
     examples: |
       - koliko traju studije
       - koliko se dugo studira
-      
       - trajanje studija
       - koliko studije traju
       - koliko godina su studije
@@ -268,7 +214,6 @@ nlu:
       - koje zvanje se stice nakon zavrsenog studijskog programa
       - kakva je titula nakon zavrsenih studija
       - kako cu se zvati nakon diplomiranja
-      
       - kako se zovem nakon studija
       - koja mi je titula nakon studija
       - kako ce me ljudi zvati nakon studija
@@ -276,7 +221,6 @@ nlu:
       - naziv posle studija
       - posle studija se zovem kako
       - kako me zovu posle studija
-      
       - kako se zovem nakon faksa
       - koja mi je titula nakon faksa
       - kako ce me ljudi zvati nakon faksa
@@ -284,7 +228,6 @@ nlu:
       - naziv posle faksa
       - posle faksa se zovem kako
       - kako me zovu posle faksa
-      
       - kako se zovem nakon diplomiranja
       - koja mi je titula nakon diplomiranja
       - kako ce me ljudi zvati nakon diplomiranja
@@ -298,7 +241,6 @@ nlu:
       - da li je studijski program akreditovan
       - da li su svi studijski programi akreditovani
       - kakva je situacija za akreditacijom
-      
       - akreditacija
       - akreditovani
       - da li smo akreditovani
@@ -311,7 +253,6 @@ nlu:
       - da li postoji podrska zaposlenih studenata
       - da li postoji podrska za zaposlene studenete
       - da li postoje termini za zaposlene studente
-      
       - ima ju li zaposleni studenti podrsku
       - podrska za zaposlene studente
       - da li zaposleni studenti imaju podrsku
@@ -330,7 +271,6 @@ nlu:
       - da li se ispiti mogu polagati onlajn
       - da li se ispiti mogu polagati online
       - da li mogu ploagati ispit online
-      
       - moze li ispit onlajn
       - moze li ispit preko interneta
       - mogu li onlajn polagati
@@ -352,7 +292,6 @@ nlu:
       - da li je praksa obavezna
       - da li je praksa obezbenjena od strane fakulteta
       - kakva je situacija sa praksom
-      
       - da li nudite praksu
       - da li praksa postoji kod vas
       - sta podrazumevate pod praksom
@@ -376,7 +315,6 @@ nlu:
       - da li Univerzitet pomaze prilikom zaposlenja nakon studija
       - da li je omoguceno zaposlenje
       - kakva je situacija sa poslom
-      
       - da li sa fakultetom modu da dobijem posao
       - posao posle fakulteta
       - sta je sa poslom posle fakulteta
@@ -401,7 +339,6 @@ nlu:
       - kada pocinje upis
       - do kada je moguce da se upisem
       - do kada je moguce upisati
-      
       - kada mozemo upisati
       - kad upis pocinje
       - kada upisati
@@ -412,7 +349,6 @@ nlu:
       - koja je dokumntacija potrebna za upis
       - sta je sve potrebno za upis
       - kakva dokumenta su mi potrebna za upis
-      
       - sta mi treba za upis
       - sta mi od dokumenata treba za upis
       - upisni materijali
@@ -433,7 +369,6 @@ nlu:
       - koja je procedura za prelazak sa drugog fakulteta
       - kako mogu da predjem sa drugog fakulteta
       - koji moze da se predje sa drugog fakulteta
-      
       - prelazak sa drugog fakulteta
       - sta ako prelazim sa drugog fakulteta
       - kako da predjem sa drugog fakulteta
@@ -448,7 +383,6 @@ nlu:
     examples: |
       - da li je potrebno da se stekne uslov na drugoj ustanovi da bi se upisala godina kod nas
       - da li je neophodno da se stekne uslov da bi se upisala godina kod nas
-      
       - ima li neki uslov za prelaz fakulteta
       - ima li neki uslov za prelaz sa drugog fakulteta
       - sta treba od uslova za prelaz sa drugog fakulteta
@@ -465,7 +399,6 @@ nlu:
       - da li se placa prenos espb poena
       - koliko kosta prenos espb poena
       - posto je prenos espb poena
-      
       - prenos espb poena
       - prenos espb cena
       - cena za prenos espb poena
@@ -482,7 +415,6 @@ nlu:
       - kada radi studentska sluzba
       - od kada radi studentska sluzba
       - do kada radi studentska sluzba
-      
       - radno vreme studentske sluzbe
       - u koje vreme radi studentska sluzba
       - rad studentske sluzbe
@@ -493,7 +425,6 @@ nlu:
       - po kom kursu evra se placa skolarina
       - koji je kurs evra
       - kurs evra molim
-      
       - kurs evra
       - kurs eura
       - euro
@@ -509,7 +440,6 @@ nlu:
       - na koji tekuci racun da uplatim skolarinu
       - koji su tekuci racuni
       - spisak svih tekucih racuna
-      
       - tekuci racun
       - tekuci racuni
       - koju su svi tekuci racuni
@@ -521,7 +451,6 @@ nlu:
       - sta je potrebno za izdavanje potvrde o studiranju
       - gde mogu da izvadim potvrdu o studiranju
       - kako da izvadim potvrdu o studiranju
-      
       - potvrda studiranja
       - izvaditi potvrdu studiranja
       - kako izvaditi potvrdu studiranja
@@ -536,7 +465,6 @@ nlu:
       - sta je potrebno za izdavanje uverenja o polozenim ispitima
       - gde mogu da izvadim uverenje o polozenim ispitima
       - kako da izvadim uverenje o polozenim ispitima
-      
       - uverenje o polozenim ispitima
       - uverenje o polozenom ispitu
       - uverenje o ispitu
@@ -560,7 +488,6 @@ nlu:
       - kako se prijavljuje ispit
       - gde da prijavim ispit
       - kako da prijavim ispit
-      
       - prijaviti ispit
       - prijavi ispit
       - zelim da prijavim ispit
@@ -571,7 +498,6 @@ nlu:
       - kako se naknadno prijavljuje ispit
       - gde da naknadno prijavim ispit
       - kako da naknadno prijavim ispit
-      
       - naknadna prijava ispita
       - prijaviti naknadno ispit
       - prijaviti ispite naknadno
@@ -585,7 +511,6 @@ nlu:
       - kako da se prijavim na singimejl
       - kako da se prijavim na singimail
       - gde mogu da se ulogijem na singimail
-      
       - prijava na singimail
       - kako se prijaviti na singimail
       - prijavljivanje na singimail
@@ -597,7 +522,6 @@ nlu:
       - prvi put prijava na singimail
       - prijavljivanje na singimail
       - gde da se ulogujem na singimail
-      
       - prijava na singimejl
       - kako se prijaviti na singimejl
       - prijavljivanje na singimejl
@@ -609,7 +533,6 @@ nlu:
       - prvi put prijava na singimejl
       - prijavljivanje na singimejl
       - gde da se ulogujem na singimejl
-      
       - prijava na studentski mejl
       - kako se prijaviti na studentski mejl
       - prijavljivanje na studentski mejl
@@ -627,7 +550,6 @@ nlu:
       - kako da se prijavim na estudent nalog
       - kako da se prijavim na estudent nalog
       - gde mogu da se ulogijem na estudent nalog
-      
       - prijava na estudent
       - kako se prijaviti na estudent
       - prijavljivanje na estudent
@@ -647,7 +569,6 @@ nlu:
       - kako da uplatim novac na singipay platformu
       - kako da uplatim novac na singipej platformu
       - gde da uplatim novac na singipej
-      
       - singipay uplata
       - uplata na singipay
       - kako da uplatim na singipay
@@ -655,7 +576,6 @@ nlu:
       - kako se koristi singipay
       - koristiti singipay
       - singipay aplikacija
-      
       - singipej uplata
       - uplata na singipej
       - kako da uplatim na singipej
@@ -669,7 +589,6 @@ nlu:
       - da li ce se povecati skolarina za vec upisane studenete
       - da li vec upisani studenti ce imati uvecanu skolarinu
       - kako povecanje cena skolarine utice na vec postojece studenete
-      
       - ako sam vec upisao fakultet da li ce se cena skolarine podici
       - ako sam vec upisao fakultet da li se moze promeniti cena skolarine
       - promena cene skolarine ako sam upisan
@@ -692,21 +611,18 @@ nlu:
       - kako da odbranim zavrsni rad
       - kako da odbranim diplomski rad
       - kako da odbranim master rad
-      
       - kakva je procedura za zavrsni rad
       - odbrana zavrsnog rada
       - kako da branim moj zavrsni rad
       - kako da prijavim odbranu mog zavrsnog rada
       - koja je procedura za prijavu moje odbrane zavrsnog rada
       - koja je procedura za prijavu odbrane mog zavrsnog rada
-      
       - kakva je procedura za diplomski rad
       - odbrana diplomskog rada
       - kako da branim moj diplomski rad
       - kako da prijavim odbranu mog diplomskog rada
       - koja je procedura za prijavu moje odbrane diplomskog rada
       - koja je procedura za prijavu odbrane mog diplomskog rada
-      
       - kakva je procedura za master rad
       - odbrana master rada
       - kako da branim moj master rad
@@ -719,7 +635,6 @@ nlu:
       - zasto ne mogu da se ulogujem na singimail adresu
       - zbog cega ne mogu da se ulogujem na singimejl adresu
       - zbog cega ne mogu da se ulogujem na singimail adresu
-      
       - ne mogu da se ulogujem na singimail
       - nece da mi se uloguje na singimail
       - singimej mi ne dozvoljava da se ulogujem
@@ -728,7 +643,6 @@ nlu:
       - zasto ne radi logovanje na singimail
       - zasto mi ne radi logovanje na singimail
       - nece logovanje na singimail
-      
       - ne mogu da se ulogujem na singimejl
       - nece da mi se uloguje na singimejl
       - singimej mi ne dozvoljava da se ulogujem
@@ -737,7 +651,6 @@ nlu:
       - zasto ne radi logovanje na singimejl
       - zasto mi ne radi logovanje na singimejl
       - nece logovanje na singimejl
-      
       - ne mogu da se ulogujem na studentski mejl
       - nece da mi se uloguje na studentski mejl
       - singimej mi ne dozvoljava da se ulogujem
@@ -757,7 +670,6 @@ nlu:
       - zbog cega ne mogu da se ulogujem na mstims nalog
       - zbog cega ne mogu da se ulogujem na teams nalog
       - zbog cega ne mogu da se ulogujem na msteams nalog
-      
       - ne mogu da se ulogujem na teams
       - nece da mi se uloguje na teams
       - teams mi ne dozvoljava da se ulogujem
@@ -766,7 +678,6 @@ nlu:
       - zasto ne radi logovanje na teams
       - zasto mi ne radi logovanje na teams
       - nece logovanje na teams
-      
       - ne mogu da se ulogujem na msteams
       - nece da mi se uloguje na msteams
       - msteams mi ne dozvoljava da se ulogujem
@@ -780,7 +691,6 @@ nlu:
     examples: |
       - koja je procedura i potrebna dokumentacija za prijavu nesrecnog slucaja
       - kako da prijavim nesrecni slucaj
-      
       - hocu da prijavim nesrecan slucaj
       - nesrecan slucaj
       - sta je potrebno da prijavim nesrecan slucaj
@@ -790,7 +700,6 @@ nlu:
     examples: |
       - sta podrazumeva sistem ubrzanog studiranja
       - kako funkcionise ubrzano studiranje
-      
       - sta je ubrzano studiranje
       - da li postoji ubrzano studiranje
       - koja je procedura za ubrzano studiranje
@@ -803,7 +712,6 @@ nlu:
     examples: |
       - kako se mozemo prijaviti za razmnenu studenata
       - kako radi razmena studenata
-      
       - razmena studenata
       - kako da budem student na razmeni
       - kako funkcionise razmena studenata
@@ -815,14 +723,12 @@ nlu:
       - da li imamo saradnju sa univerzitetima u inostranstvu i gde mogu pronaci vise informacija
       - da li postoji saradnja sa stranim univerzitetima
       - gde da dobijem vise informacija o saradji sa stranim univerzitetima
-      
       - da li saradjujemo sa stranim univerzitetima # Moramo biti mentalno retardirani. Oni ne znaju razliku Univerziteta i fakulteta. Napredne stvari (╯°□°）╯︵ ┻━┻
       - saradnja sa stranim univerzitetima
       - saradjivati sa drugim univerzitetima
       - saradnja sa drugim univerzitetima
       - postoji li saradnja sa stranim univerzitetima
       - strani univerziteti
-      
       - da li saradjujemo sa stranim fakultetima 
       - saradnja sa stranim fakultetima
       - saradjivati sa drugim fakultetima
@@ -833,7 +739,6 @@ nlu:
     examples: |
       - da li je evidentirana uplata
       - koja je procedura ukoliko nije evidentirana uplata
-      
       - kao se evidentira uplata
       - evidencija uplate
       - kako da se vidi evidencije uplate
@@ -846,9 +751,8 @@ nlu:
       - da li mi mozete reci koliko jos dugujem za skolarinu
       - kako mogu da proverim moje dugovanje
       - koliko dugujem za skolarinu
-      
-      - koliko dugujem       # HAHA
-      - koliko para dugujem  # HAHA
+      - koliko dugujem
+      - koliko para dugujem
       - zelim da proverim dugovanje
       - koliko je moje trenutno dugovanje
       - koliko je moje dugovanje
@@ -860,7 +764,6 @@ nlu:
     examples: |
       - kako da podnesem molbu
       - gde mogu da podnesem molbu
-      
       - zelim da podnesem molbu
       - zelim da napravim molbu
       - kako da napravim molbu
@@ -877,7 +780,6 @@ nlu:
     examples: |
       - kako da procitam odgovor
       - gde mogu da procitam odgovor na molbu
-      
       - odgovor na moju molbu
       - gde da procima odgovor na molbu
       - odgovor za moju molbu
@@ -886,7 +788,6 @@ nlu:
     examples: |
       - kako da dopunim molbu
       - gde mogu da dopunim molbu
-      
       - zelim da dopunim molbu
       - zelim da dopunim svoju molbu
       - kako da dopunim svoju molbu
@@ -897,7 +798,6 @@ nlu:
     examples: |
       - koja je procedura za ispis sa fakulteta
       - kako mogu da se ispisem sa fakulteta
-      
       - zelim da se ispisem iz fakulteta # Jer ne mogu da polozim Operativne sisteme, Baze i Praktikum kod profesora Taira ¯\_(ツ)_/¯
       - kako ide ispis iz fakulteta
       - kako da ispisem fakultet
@@ -911,18 +811,16 @@ nlu:
     examples: |
       - koloko traje praksa
       - koliko je trajanje prakse
-      
       - trajanje prakse
       - hocu da znam koliko traje praksa
       - kazi mi koliko traje praksa
-      
+
   # Upis naredne godine
 
   - intent: tekuci_racun_upisni_materijal
     examples: |
       - na koji tekuci racun se uplacuje upisni materijal i osiguranje
       - gde mogu da uplatim novac za upisni materijal i osiguranje
-      
       - tekuci racun za upisni materijal
       - na koju racun uplacujem za upisni materijal
       - gde uplacujem za upisni materijal
@@ -934,13 +832,12 @@ nlu:
       - tekuci racun za upisni materijal i osiguranje
       - na koju racun uplacujem za upisni materijal i osiguranje
       - gde uplacujem za upisni materijal i osiguranje
-      - racun za uplatu upisni materijal i osiguranje 
+      - racun za uplatu upisni materijal i osiguranje
 
   - intent: dokumentacija_za_upis_vise_godine
     examples: |
       - sta je potrebno od dokumentacije za upis na visu godinu studija
       - kakva je dokumentacija potrebna za upis na vise godine studija
-      
       - dokumenta za upis na visu godinu
       - dokumenta za upis na sledecu godinu
       - dokumenta za upis na narednu godinu
@@ -955,7 +852,6 @@ nlu:
     examples: |
       - kako se placaju preneti ispiti
       - na koji nacin mogu preneti ispit
-      
       - placanje prenetih ispita
       - da li se preneti ispiti placaju
       - na koji naci se placaju preneti ispiti
@@ -979,11 +875,9 @@ nlu:
       - kako funkcionise placanje po bodu
       - sta znaci placanje po espb bodu
       - kako funkcionise placanje po espb bodu
-      
       - placanje po bodu
       - placanje po espb bodu
       - sta podrazumeva placanje po espb bodu
-      
       - sta znaci placanje po poenu
       - kako funkcionise placanje po poenu
       - sta znaci placanje po espb poenu
@@ -991,14 +885,12 @@ nlu:
       - placanje po poenu
       - placanje po espb poenu
       - sta podrazumeva placanje po espb poenu
-      
 
   - intent: pocetak_upisa_vise_godine
     examples: |
       - kada pocinje upis na vise godine
       - kada mogu upisati sledecu godinu
       - kada mogu upisati visu godinu
-      
       - kada mogu upisati narednu godinu
       - kada mogu upisati novu godinu
       - pocetak upisa na nove godine
@@ -1010,7 +902,6 @@ nlu:
       - do kada mogu upisati narednu godinu
       - koji je poslednji rok za upis naredne godine
       - dokle mogu da upisem narednu godinu
-      
       - do kada mogu da upisem sledecu godinu
       - do kada mogu da upisem sledecu godinu
       - poslednji rok za upis za sledecu godinu
@@ -1025,7 +916,6 @@ nlu:
     examples: |
       - da li mogu da slusam predavanja u oktobru ako se nisam upisao
       - kako mogu da pratim predavanja u oktobru ako nisam polozio sve ispita
-      
       - ako nisam dao sve ispite da li mogu da slusam u oktobru nastavu
       - slusanje nastave u oktobru ako nisam polozio sve ispite
       - slusanje nastave u oktobru ako nisam polozio sve ispite iz prosle godine
@@ -1039,7 +929,6 @@ nlu:
       - da li mi se vazi deo ispita od prosle godine
       - da li mi se vazi ostvareni rezultat naredne skolske godine
       - da li rezultat ispita ostaje do sledece godine
-      
       - da li mi se vaze poeni koje sam osvojio prosle godine
       - poeni osvojeni prosle godine
       - sta je sa mojim poenima iz prosle godine
@@ -1056,7 +945,6 @@ nlu:
       - gde se nalazi raspored kolokvijuma
       - gde mogu da pronadjem raspored ispita
       - gde mogu da pronadjem raspored kolokvijuma
-      
       - rasporedi kolokvijuma
       - rasporedi ispita
       - rasporedi ispita i kolokvijuma
@@ -1071,7 +959,6 @@ nlu:
     examples: |
       - kada je koji ispiti rok
       - gde mogu videti kada je koji rok
-      
       - kada koji rok traje
       - kada je koji rok
 
@@ -1081,7 +968,6 @@ nlu:
       - da li ce biti vanredni oktobarski rok
       - kada je oktobarski rok
       - da li ce biti oktobarskog roka
-      
       - okobarski rok
       - dodatni rok u oktobru
       - da li postoji dodatni rok u oktobru
@@ -1109,7 +995,6 @@ nlu:
       - kada mogu da odem na konsultacije
       - raspored konsultacija
       - gde mogu da pronadjem termine konsultacija
-      
       - koji su termini konsultacija za profesora
       - konsultacije
       - gde pisu konsultacije
@@ -1123,7 +1008,6 @@ nlu:
       - kako izgleda meil profesora
       - kako izgleda email profesora
       - format profesorskog mejla
-      
       - profesorski email
       - profesorski emejl
       - profesorski mail
