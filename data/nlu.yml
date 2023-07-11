@@ -419,6 +419,15 @@ nlu:
       - u koje vreme radi studentska sluzba
       - rad studentske sluzbe
       - vreme rada studentske sluzbe
+      - koje je radno vreme studentski servis
+      - kada radi studentski servis
+      - od kada radi studentski servis
+      - do kada radi studentski servis
+      - radno vreme studentskog servisa
+      - u koje vreme radi studentski servis
+      - rad studentskog servisa
+      - vreme rada studentskog servisa
+      - radno vreme
 
   - intent: euro_exchange_rate
     examples: |

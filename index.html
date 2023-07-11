@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let e = document.createElement("script"),
+            t = document.head || document.getElementsByTagName("head")[0];
+        (e.src =
+            "https://cdn.jsdelivr.net/npm/rasa-webchat/lib/index.js"),
+            // Replace 1.x.x with the version that you want
+            (e.async = !0),
+            (e.onload = () => {
+                window.WebChat.default(
+                    {
+                        title: 'Univerzitet Singidunum',
+                        subtitle: 'Podrška za upis',
+                        inputTextFieldHint: 'Unesite poruku...',
+                        showMessageDate: true,
+                        showFullScreenButton: true,
+                        profileAvatar: 'https://singidunum.ac.rs/assets/fir/img/favicon.png',
+                        initPayload: '/greet',
+                        customData: { language: "sr-RS" },
+                        socketUrl: "http://localhost:5005",
+                        socketPath: "/socket.io",
+                    },
+                    null
+                );
+            }),
+            t.insertBefore(e, t.firstChild);
+    </script>
+</body>
+
+</html>
