@@ -161,3 +161,6 @@ cython_debug/
 
 models/
 .rasa/
+.code/
+.vscode/
+.idea/
