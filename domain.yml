@@ -245,7 +245,7 @@ responses:
         Srdačan pozdrav"
 
   utter_euro_exchange_rate:
-    - text: "Poštovnai,
+    - text: "Poštovani,
         Kurs evra po kom je potrebno uplatiti školarinu u svakom trenutku možete pogledati na našem sajtu na sledećem linku:
         https://singidunum.ac.rs/kurs
         Za sva dodatna pitanja Vam stojimo na raspolaganju.

@@ -51,6 +51,7 @@ nlu:
       - koliko je godina na 
       - kolk je godina
       - kolik je godina
+      - cena skolarine
 
   - intent: same_price_per_year
     examples: |
@@ -406,6 +407,7 @@ nlu:
       - kako ide prenos espb poena
       - kako da prenesem espb poene
       - zelim da prenesem espb poene
+      - cena espb
 
   # Opsta pitanja vec upisani studenti
 
