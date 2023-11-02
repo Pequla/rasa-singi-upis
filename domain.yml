@@ -99,10 +99,7 @@ responses:
         Srdačan pozdrav"
 
   utter_scholarship_includes:
-    - text: "Poštovani,
-        Hvala Vam na interesovanju za upis na Univerzitet Singidunum.
-        U cenu školarine su uključena predavanja, vežbe, udžbenici i kolokvijumi, dok se prijava ispita plaća dodatnih 500 dinara u redovnoj proceduri, takođe plaćaju se i ostale usluge prema važećem cenovniku koji možete pronaći na sajtu Univerziteta
-        Srdačan pozdrav"
+    - text: "U cenu školarine su uključena predavanja, vežbe, udžbenici i kolokvijumi, dok se prva prijava ispita plaća dodatnih 500 dinara u redovnoj proceduri, svaka nardna prijava istog predmeta uredovnoj proceduri se plaća 2000 dinara. Takođe plaćaju se i ostale usluge prema važećem cenovniku koji možete pronaći na sajtu Univerziteta."
 
   utter_admission_exam_payment:
     - text: "Poštovani,
@@ -195,21 +192,7 @@ responses:
         Srdačan pozdrav"
 
   utter_admission_documentation:
-    - text: "Poštovani,
-        Za upis je potrebno dostaviti:
-        Original diplomu i svedočanstva sva 4 razreda srednje škole (na uvid) i fotokopiju navedenih dokumenata (ne mora biti overena kopija). Ukoliko dokumenta srednje škole nisu na srpskom, hrvatskom, crnogorskom ili bosanskom jeziku potrebna je i kopija njihovih prevoda.
-        Kandidat koji je završio srednju školu van teritorije Republike Srbije (izuzetak Republika Srpska) ili je završio stranu školu/program u Republici Srbiji u obavezi je da nostrifikuje diplomu srednje škole u Agenciji za kvalifikacije. Prilikom upisa potrebno je dostaviti Odluku o priznavanju prethodno stečene strane školske isprave iz Agencije za kvalifikacije, kao i fotokopiju originalne dokumentacije i njenih prevoda.
-        Ukoliko Odluka o priznavanju prethodno stečene strane školske isprave još uvek nije urađena potrebno je dostaviti potvrdu Agencije za kvalifikacije o započetom postupku i fotokopiju originalne dokumentacije i njenih prevoda.
-        Dve fotografije za indeks dimenzija 3,5 x 4,5 cm;
-        Ličnu kartu ili fotokopiju lične karte bez čipa. Strani državljani dostavljaju kopiju pasoša (strana sa fotografijom i ličnim podacima).
-        Kandidati kojima je potrebna viza prilažu i kopiju strane pasoša sa boravišnom dozvolom (vizom), kao i kopiju prijave boravka koja se dobija u policiji. Za kandidate iz zemalja kojima nije potrebna viza kopira se strana pasoša gde se vidi datum ulaska u Srbiju, a ukoliko se iz Crne Gore / BIH u Srbiju ušlo sa ličnom kartom može se naknadno dostaviti kopija prijave boravka koja se dobija u policiji;
-        Kandidati koji upisuju studije na engleskom jeziku - potvrda da vladaju engleskim jezikom - nivo B2 – ukoliko srednja škola nije završena na engleskom jeziku – može se doneti naknadno, najkasnije do upisa naredne školske godine;
-        Kandidati koji upisuju studije na srpskom jeziku - potvrda da vladaju srpskim jezikom - nivo B2 – ukoliko srednja škola nije završena na srpskom, hrvatskom, crnogorskom ili bosanskom jeziku – može se doneti naknadno, najkasnije do upisa naredne školske godine;
-        Dokaz o uplati školarine (minimalno 10%) ili potpisani predugovor o studiranju;
-        Dokaz o uplati upisnog materijala i osiguranja (1800 din);
-        Za kandidate strane državljane - potvrda o uplaćenom zdravstvenom osiguranju u R. Srbiji;
-        Za vukovce - overena kopija Vukove diplome;
-        Lekarsko uverenje o psiho-fizičkoj sposobnosti za upis na fakultet i urađeni elektrokardiogram – EKG za kandidate koji upisuju studijski program Fizičko vaspitanje i sport ili Menadžment u sportu."
+    - text: "Za upis je potrebno dostaviti: Original diplomu i svedočanstva sva 4 razreda srednje škole (na uvid) i fotokopiju navedenih dokumenata (ne mora biti overena kopija). Ukoliko dokumenta srednje škole nisu na srpskom, hrvatskom, crnogorskom ili bosanskom jeziku potrebna je i kopija njihovih prevoda. Kandidat koji je završio srednju školu van teritorije Republike Srbije (izuzetak Republika Srpska) ili je završio stranu školu/program u Republici Srbiji u obavezi je da nostrifikuje diplomu srednje škole u Agenciji za kvalifikacije. Prilikom upisa potrebno je dostaviti Odluku o priznavanju prethodno stečene strane školske isprave iz Agencije za kvalifikacije, kao i fotokopiju originalne dokumentacije i njenih prevoda. Ukoliko Odluka o priznavanju prethodno stečene strane školske isprave još uvek nije urađena potrebno je dostaviti potvrdu Agencije za kvalifikacije o započetom postupku i fotokopiju originalne dokumentacije i njenih prevoda. Dve fotografije za indeks dimenzija 3,5 x 4,5 cm; Ličnu kartu ili fotokopiju lične karte bez čipa. Strani državljani dostavljaju kopiju pasoša (strana sa fotografijom i ličnim podacima). Kandidati kojima je potrebna viza prilažu i kopiju strane pasoša sa boravišnom dozvolom (vizom), kao i kopiju prijave boravka koja se dobija u policiji. Za kandidate iz zemalja kojima nije potrebna viza kopira se strana pasoša gde se vidi datum ulaska u Srbiju, a ukoliko se iz Crne Gore / BIH u Srbiju ušlo sa ličnom kartom može se naknadno dostaviti kopija prijave boravka koja se dobija u policiji; Kandidati koji upisuju studije na engleskom jeziku - potvrda da vladaju engleskim jezikom - nivo B2 – ukoliko srednja škola nije završena na engleskom jeziku – može se doneti naknadno, najkasnije do upisa naredne školske godine; Kandidati koji upisuju studije na srpskom jeziku - potvrda da vladaju srpskim jezikom - nivo B2 – ukoliko srednja škola nije završena na srpskom, hrvatskom, crnogorskom ili bosanskom jeziku – može se doneti naknadno, najkasnije do upisa naredne školske godine; Dokaz o uplati školarine (minimalno 10%) ili potpisani predugovor o studiranju; Dokaz o uplati upisnog materijala i osiguranja (3000 din); Za kandidate strane državljane - potvrda o uplaćenom zdravstvenom osiguranju u R. Srbiji; Za vukovce - overena kopija Vukove diplome; Lekarsko uverenje o psiho-fizičkoj sposobnosti za upis na fakultet i urađeni elektrokardiogram – EKG za kandidate koji upisuju studijski program Fizičko vaspitanje i sport ili Menadžment u sportu."
 
   # Prelasci sa drugih fakulteta
 
@@ -260,16 +243,10 @@ responses:
         Srdačan pozdrav"
 
   utter_certificate_of_study:
-    - text: "Poštovani,
-        Potvrdu o redovnom studiranju Univerzitet može izdati kada su izmirene dospele obaveze za školarinu prema Ugovoru o studiranju i ukoliko na nalogu za ispite i ostale namene imate raspoloživo  400 dinara. Skeniranu potvrdu Vam možemo poslati isključivo na singimejl, ali Univerzitet Singidunum ne može da garantuje da će institucija kojoj predajete dokument prihvatiti skeniranu verziju, pa original možete preuzeti u studentskom servisu.
-        Za sva dodatna pitanja Vam stojimo na raspolaganju.
-        Srdačan pozdrav"
+    - text: "Potvrdu o redovnom studiranju Univerzitet može izdati kada su izmirene dospele obaveze za školarinu prema Ugovoru o studiranju i ukoliko na nalogu za ispite i ostale namene imate raspoloživo 400 dinara za izdavanje potvrde u svrhu regulisanja zdravstvenog osiguranja, povlastice za prevoz i za ostvarivanje prava na porodičnu penziju, dečiji dodatak i alimentaciju.  Izdavanje potvrde o redovnom studiranju u ostale svrhe se naplaćuje 2000 dinara. Skeniranu potvrdu Vam možemo poslati isključivo na singimejl, ali Univerzitet Singidunum ne može da garantuje da će institucija kojoj predajete dokument prihvatiti skeniranu verziju, pa original možete preuzeti u studentskom servisu."
 
   utter_certificate_of_passed_exams:
-    - text: "Poštovani,
-        Uverenje o položenim ispitima Univerzitet može izdati kada su izmirene dospele obaveze za školarinu prema Ugovoru o studiranju i ukoliko na nalogu za ispite i ostale namene imate raspoloživo 1300 dinara za verziju na srpskom jeziku, za verziju na engleskom jeziku uverenje o položeženim ispitima se naplaćuje 2600 dinara. Skenirano Uverenje o položenim ispitima Vam možemo poslati isključivo na singimejl adresu, ali Univerzitet Singidunum ne može da garantuje da će institucija kojoj predajete dokument prihvatiti skeniranu verziju, pa original možete preuzeti u studentskom servisu.
-        Za sva dodatna pitanja Vam stojimo na raspolaganju.
-        Srdačan pozdrav"
+    - text: "Uverenje o položenim ispitima Univerzitet može izdati kada su izmirene dospele obaveze za školarinu prema Ugovoru o studiranju i ukoliko na nalogu za ispite i ostale namene imate raspoloživo 4000 dinara za verziju na srpskom jeziku, za verziju na engleskom jeziku uverenje o položenim ispitima se naplaćuje 5000 dinara. Skenirano Uverenje o položenim ispitima Vam možemo poslati isključivo na singimejl adresu, ali Univerzitet Singidunum ne može da garantuje da će institucija kojoj predajete dokument prihvatiti skeniranu verziju, pa original možete preuzeti u studentskom servisu"
 
   utter_exam_registration:
     - text: "Kao što možete videti u Vodiču kroz administraciju: https://singidunum.ac.rs/link/vodic-kroz-administraciju Prijava ispita se vrši isključivo elektronski putem portala eStudent. Ispit se može prijaviti najkasnije 5 dana do datuma ispita do 14:00 časova (ne računajući dan održavanja). Naknada iznosi 500 dinara po ispitu za prvu prijavu dok svaka naredna prijava istog ispita iznosi 2000 dinara po ispitu i potrebno je da se uplata izvrši najkasnije 10 dana pred ispit"
