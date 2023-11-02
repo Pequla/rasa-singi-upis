@@ -272,25 +272,10 @@ responses:
         Srdačan pozdrav"
 
   utter_exam_registration:
-    - text: "Poštovani,
-        Kao što možete videti u Vodiču kroz administraciju:
-        https://repository.singidunum.ac.rs/files/2020/11/Vodic-kroz-administraciju.pdf
-        Prijava ispita se vrši isključivo elektronski putem portala
-        eStudent. Ispit se može prijaviti najkasnije 5 dana do
-        datuma ispita do 14:00 časova ne računajući dan održavanja. Naknada iznosi 500 dinara
-        po ispitu i potrebno je da se uplata izvrši najkasnije 10
-        dana pred ispit.
-        Srdačan pozdrav"
+    - text: "Kao što možete videti u Vodiču kroz administraciju: https://singidunum.ac.rs/link/vodic-kroz-administraciju Prijava ispita se vrši isključivo elektronski putem portala eStudent. Ispit se može prijaviti najkasnije 5 dana do datuma ispita do 14:00 časova (ne računajući dan održavanja). Naknada iznosi 500 dinara po ispitu za prvu prijavu dok svaka naredna prijava istog ispita iznosi 2000 dinara po ispitu i potrebno je da se uplata izvrši najkasnije 10 dana pred ispit"
 
   utter_subsequent_exam_registration:
-    - text:
-        "Poštovani, Nakon isteka roka za prijavu ispita po redovnoj ceni (5 dana pre
-        datuma ispita do 14:00), ne računajući dan održavanja‚ ispit je
-        moguće prijaviti po ceni naknadne prijave ispita, najkasnije 1 dan
-        pred ispit do 14:00. Na dan ispita nije moguća prijava.
-        Za naknadnu prijavu ispita je neophodno da u trenutku prijave
-        prema obaveštenju i proceduri student ima raspoloživa sredstva
-        na svom nalogu. Naknadna prijava 1 ispita iznosi 3000 dinara. Nakandna prijava se realizuje slanjem mejla sa singimejl adrese na adresu estudent@singidunum.ac.rs, u mejlu se navodi ime, prezime, broj indeksa i predmeti za prijavu. Kao što možete videti u Vodiču kroz administraciju: https://repository.singidunum.ac.rs/files/2020/11/Vodic-kroz-administraciju.pdf Srdačan pozdrav"
+    - text: "Nakon isteka roka za prijavu ispita po redovnoj ceni (5 dana pre datuma ispita do 14:00), ne računajući dan održavanja‚ ispit je moguće prijaviti po ceni naknadne prijave ispita, najkasnije 1 dan pred ispit do 14:00. Na dan ispita nije moguća prijava. Za naknadnu prijavu ispita je neophodno da u trenutku prijave prema obaveštenju i proceduri student ima raspoloživa sredstva na svom nalogu. Naknadna prijava 1 ispita iznosi 5000 dinara. Naknadna prijava se realizuje slanjem mejla sa studentske singimejl adrese na adresu estudent@singidunum.ac.rs. Naknadnu prijavu nije moguće realizovati preko estudent portala. Kao što možete videti u Vodiču kroz administraciju: https://singidunum.ac.rs/link/vodic-kroz-administraciju"
 
   utter_singimail_login:
     - text: "Poštovani,
