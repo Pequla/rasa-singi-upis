@@ -315,6 +315,7 @@ nlu:
     examples: |
       - da li Univerzitet pomaze prilikom zaposlenja nakon studija
       - da li je omoguceno zaposlenje
+      - da li moze sa vasom diplomom da se zapoosli u inostranstvu
       - kakva je situacija sa poslom
       - da li sa fakultetom modu da dobijem posao
       - posao posle fakulteta
@@ -344,6 +345,19 @@ nlu:
       - kad upis pocinje
       - kada upisati
       - do kad mogu upisati
+      - kada krece upis na racunarske nauke
+      - kada krece upis na smer fir
+      - kada krece upis na smer primenjena vestacka inteligencija
+      - kada krece upis na smer aai
+      - kada krece upis na smer softversko inzenjerstvo
+      - kada krece upis na smer poslovna ekonomija
+      - kada krece upis na poslovnu ekonomiju
+      - kada krece upis na infromatiku
+      - kada krece upis na menadzment u sportu
+      - kada krece upis na fizicku kulturu i sport
+      - kada krece upis na farmaciju
+      - kada krece upis na zsor
+      - kada krece upis na zastitu zivotne sredine
 
   - intent: admission_documentation
     examples: |
@@ -363,7 +377,15 @@ nlu:
       - sta mi treba za upis
       - sta mi od dokumentacije treba za upis
       - hocu da se upisem
+      - hocu da se upisem na fakultet
       - zelim da se upisem
+      - zelim da se upisem na fakultet
+      - na koji nacin je moguce izvrsiti upis na univerzitet singidunum
+      - na koji nacin je moguce izvrstiti upis na fakultet
+      - kako se upisati na univerzitet singidunum
+      - ko sve sme da upise fakultet
+      - da li smem da upisem fakultet
+      - ko moze upisati fakultet
 
   # Prelasci sa drugih fakulteta
 
@@ -505,6 +527,9 @@ nlu:
       - prijavi ispit
       - zelim da prijavim ispit
       - reci mi kako da prijavim ispit
+      - prijava ispita
+      - kako se vrsi prijava ispita
+      - kako mogu da prijavim ispit
 
   - intent: subsequent_exam_registration
     examples: |
