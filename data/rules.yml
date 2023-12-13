@@ -14,317 +14,317 @@ rules:
   - rule: rule_scholarship_price
     steps:
       - intent: scholarship_price
-      - action: utter_scholarship_price
+      - action: action_api_response
 
   - rule: rule_same_price_per_year
     steps:
       - intent: same_price_per_year
-      - action: utter_same_price_per_year
+      - action: action_api_response
 
   - rule: rule_pay_in_paychecks
     steps:
       - intent: pay_in_paychecks
-      - action: utter_pay_in_paychecks
+      - action: action_api_response
 
   - rule: rule_discount_full_payout
     steps:
       - intent: discount_full_payout
-      - action: utter_discount_full_payout
+      - action: action_api_response
 
   - rule: rule_scholarship_includes
     steps:
       - intent: scholarship_includes
-      - action: utter_scholarship_includes
+      - action: action_api_response
 
   - rule: rule_admission_exam_payment
     steps:
       - intent: admission_exam_payment
-      - action: utter_admission_exam_payment
+      - action: action_api_response
 
   - rule: rule_admission_exam_start
     steps:
       - intent: admission_exam_start
-      - action: utter_admission_exam_start
+      - action: action_api_response
 
   - rule: rule_admission_exam_submit
     steps:
       - intent: admission_exam_submit
-      - action: utter_admission_exam_submit
+      - action: action_api_response
 
   - rule: rule_admission_exam_look
     steps:
       - intent: admission_exam_look
-      - action: utter_admission_exam_look
+      - action: action_api_response
 
   - rule: rule_admission_exam_materials
     steps:
       - intent: admission_exam_materials
-      - action: utter_admission_exam_materials
+      - action: action_api_response
 
   - rule: rule_study_lenght
     steps:
       - intent: study_lenght
-      - action: utter_study_lenght
+      - action: action_api_response
 
   - rule: rule_graduation_title
     steps:
       - intent: graduation_title
-      - action: utter_graduation_title
+      - action: action_api_response
 
   - rule: rule_study_acreditation
     steps:
       - intent: study_acreditation
-      - action: utter_study_acreditation
+      - action: action_api_response
 
   - rule: rule_employed_student_support
     steps:
       - intent: employed_student_support
-      - action: utter_employed_student_support
+      - action: action_api_response
 
   - rule: rule_online_exams
     steps:
       - intent: online_exams
-      - action: utter_online_exams
+      - action: action_api_response
 
   - rule: rule_internship
     steps:
       - intent: internship
-      - action: utter_internship
+      - action: action_api_response
 
   - rule: rule_employment_help
     steps:
       - intent: employment_help
-      - action: utter_employment_help
+      - action: action_api_response
 
   - rule: rule_admission_start
     steps:
       - intent: admission_start
-      - action: utter_admission_start
+      - action: action_api_response
 
   - rule: rule_admission_documentation
     steps:
       - intent: admission_documentation
-      - action: utter_admission_documentation
+      - action: action_api_response
 
   - rule: rule_faculty_change_procedure
     steps:
       - intent: faculty_change_procedure
-      - action: utter_faculty_change_procedure
+      - action: action_api_response
 
   - rule: rule_faculty_change_year_condition
     steps:
       - intent: faculty_change_year_condition
-      - action: utter_faculty_change_year_condition
+      - action: action_api_response
 
   - rule: rule_faculty_change_espb
     steps:
       - intent: faculty_change_espb
-      - action: utter_faculty_change_espb
+      - action: action_api_response
 
   - rule: rule_student_service_working_hours
     steps:
       - intent: student_service_working_hours
-      - action: utter_student_service_working_hours
+      - action: action_api_response
 
   - rule: rule_euro_exchange_rate
     steps:
       - intent: euro_exchange_rate
-      - action: utter_euro_exchange_rate
+      - action: action_api_response
 
   - rule: rule_bank_account
     steps:
       - intent: bank_account
-      - action: utter_bank_account
+      - action: action_api_response
 
   - rule: rule_certificate_of_study
     steps:
       - intent: certificate_of_study
-      - action: utter_certificate_of_study
+      - action: action_api_response
 
   - rule: rule_certificate_of_passed_exams
     steps:
       - intent: certificate_of_passed_exams
-      - action: utter_certificate_of_passed_exams
+      - action: action_api_response
 
   - rule: rule_exam_registration
     steps:
       - intent: exam_registration
-      - action: utter_exam_registration
+      - action: action_api_response
 
   - rule: rule_subsequent_exam_registration
     steps:
       - intent: subsequent_exam_registration
-      - action: utter_subsequent_exam_registration
+      - action: action_api_response
 
   - rule: rule_singimail_login
     steps:
       - intent: singimail_login
-      - action: utter_singimail_login
+      - action: action_api_response
 
   - rule: rule_estudent_login
     steps:
       - intent: estudent_login
-      - action: utter_estudent_login
+      - action: action_api_response
 
   - rule: rule_singipay
     steps:
       - intent: singipay
-      - action: utter_singipay
+      - action: action_api_response
 
   - rule: rule_school_year_price_increase
     steps:
       - intent: school_year_price_increase
-      - action: utter_school_year_price_increase
+      - action: action_api_response
 
   - rule: rule_odbrana_zavrsnog_rada
     steps:
       - intent: odbrana_zavrsnog_rada
-      - action: utter_odbrana_zavrsnog_rada
+      - action: action_api_response
 
   - rule: rule_singimail_login_fail
     steps:
       - intent: singimail_login_fail
-      - action: utter_singimail_login_fail
+      - action: action_api_response
 
   - rule: rule_msteams_login_fail
     steps:
       - intent: msteams_login_fail
-      - action: utter_msteams_login_fail
+      - action: action_api_response
 
   - rule: rule_msteams_login_fail
     steps:
       - intent: msteams_login_fail
-      - action: utter_msteams_login_fail
+      - action: action_api_response
 
   - rule: rule_prijava_nesrecnog_slucaja
     steps:
       - intent: prijava_nesrecnog_slucaja
-      - action: utter_prijava_nesrecnog_slucaja
+      - action: action_api_response
 
   - rule: rule_sistem_ubrzanog_studiranja
     steps:
       - intent: sistem_ubrzanog_studiranja
-      - action: utter_sistem_ubrzanog_studiranja
+      - action: action_api_response
 
   - rule: rule_razmena_studenata
     steps:
       - intent: razmena_studenata
-      - action: utter_razmena_studenata
+      - action: action_api_response
 
   - rule: rule_saradnja_sa_stranim_univerzitetima
     steps:
       - intent: saradnja_sa_stranim_univerzitetima
-      - action: utter_saradnja_sa_stranim_univerzitetima
+      - action: action_api_response
 
   - rule: rule_evidencija_uplata
     steps:
       - intent: evidencija_uplata
-      - action: utter_evidencija_uplata
+      - action: action_api_response
 
   - rule: rule_skolarina_dugovanje
     steps:
       - intent: skolarina_dugovanje
-      - action: utter_skolarina_dugovanje
+      - action: action_api_response
 
   - rule: rule_podnosenje_molbe
     steps:
       - intent: podnosenje_molbe
-      - action: utter_podnosenje_molbe
+      - action: action_api_response
 
   - rule: rule_molba_odgovor
     steps:
       - intent: molba_odgovor
-      - action: utter_molba_odgovor
+      - action: action_api_response
 
   - rule: rule_molba_dopuna
     steps:
       - intent: molba_dopuna
-      - action: utter_molba_dopuna
+      - action: action_api_response
 
   - rule: rule_ispis_sa_fakulteta
     steps:
       - intent: ispis_sa_fakulteta
-      - action: utter_ispis_sa_fakulteta
+      - action: action_api_response
 
   - rule: rule_trajanje_prakse
     steps:
       - intent: trajanje_prakse
-      - action: utter_trajanje_prakse
+      - action: action_api_response
 
   - rule: rule_tekuci_racun_upisni_materijal
     steps:
       - intent: tekuci_racun_upisni_materijal
-      - action: utter_tekuci_racun_upisni_materijal
+      - action: action_api_response
 
   - rule: rule_dokumentacija_za_upis_vise_godine
     steps:
       - intent: dokumentacija_za_upis_vise_godine
-      - action: utter_dokumentacija_za_upis_vise_godine
+      - action: action_api_response
 
   - rule: rule_placanje_prenetih_ispita
     steps:
       - intent: placanje_prenetih_ispita
-      - action: utter_placanje_prenetih_ispita
+      - action: action_api_response
 
   - rule: rule_placanje_po_bodu
     steps:
       - intent: placanje_po_bodu
-      - action: utter_placanje_po_bodu
+      - action: action_api_response
 
   - rule: rule_pocetak_upisa_vise_godine
     steps:
       - intent: pocetak_upisa_vise_godine
-      - action: utter_pocetak_upisa_vise_godine
+      - action: action_api_response
 
   - rule: rule_do_kada_upis_vise_godine
     steps:
       - intent: do_kada_upis_vise_godine
-      - action: utter_do_kada_upis_vise_godine
+      - action: action_api_response
 
   - rule: rule_predavanja_oktobar
     steps:
       - intent: predavanja_oktobar
-      - action: utter_predavanja_oktobar
+      - action: action_api_response
 
   - rule: rule_vazenje_ispita_iz_prosle_godine
     steps:
       - intent: vazenje_ispita_iz_prosle_godine
-      - action: utter_vazenje_ispita_iz_prosle_godine
+      - action: action_api_response
 
   - rule: rule_raspored_ispita_kolokvijuma
     steps:
       - intent: raspored_ispita_kolokvijuma
-      - action: utter_raspored_ispita_kolokvijuma
+      - action: action_api_response
 
   - rule: rule_kada_je_koji_rok
     steps:
       - intent: kada_je_koji_rok
-      - action: utter_kada_je_koji_rok
+      - action: action_api_response
 
   - rule: rule_oktobarski_rok
     steps:
       - intent: oktobarski_rok
-      - action: utter_oktobarski_rok
+      - action: action_api_response
 
   - rule: rule_trajanje_bloka
     steps:
       - intent: trajanje_bloka
-      - action: utter_trajanje_bloka
+      - action: action_api_response
 
   - rule: rule_ispit_strani_jezik
     steps:
       - intent: ispit_strani_jezik
-      - action: utter_ispit_strani_jezik
+      - action: action_api_response
 
   - rule: rule_raspored_konsultacija
     steps:
       - intent: raspored_konsultacija
-      - action: utter_raspored_konsultacija
+      - action: action_api_response
 
   - rule: rule_mail_profesora
     steps:
       - intent: mail_profesora
-      - action: utter_mail_profesora
+      - action: action_api_response
 
   - rule: rule_nlu_fallback
     steps:
