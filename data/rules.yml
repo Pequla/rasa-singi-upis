@@ -11,6 +11,11 @@ rules:
       - intent: bot_challenge
       - action: utter_iamabot
 
+  - rule: rule_thanks
+    steps:
+      - intent: thanks
+      - action: utter_thanks
+
   - rule: rule_scholarship_price
     steps:
       - intent: scholarship_price

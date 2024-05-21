@@ -30,6 +30,15 @@ nlu:
       - si li robot
       - robot
 
+  - intent: thanks
+    examples: |
+      - hvala
+      - hvala puno
+      - veoma hvala
+      - hvala na informacijama
+      - puno hvala
+      - veliko hvala
+
   # Pitanja o cenama
 
   - intent: scholarship_price

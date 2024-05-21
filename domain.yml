@@ -71,7 +71,10 @@ responses:
     - text: "Kako Vam mogu pomoći?"
 
   utter_iamabot:
-    - text: "Ja sam konverzacijski agent studentske službe"
+    - text: "Ja sam konverzacijski agent studentske službe."
+
+  utter_thanks:
+    - text: "Nema na čemu."
 
 actions:
   - action_default_fallback
