@@ -143,6 +143,7 @@ nlu:
 
   - intent: admission_exam_start
     examples: |
+      - da li postoji prijemni
       - kada pocinje prijemni ispit
       - kako ide prijemni ispit
       - kad prijemni ispit krece
@@ -151,9 +152,21 @@ nlu:
       - u kom dobu pocinje prijemni ispit
       - prijemi je kad
       - prijemni kada krece
+      - kada je prijemni za turizam
+      - kada je prijemni za upis
+      - kada je prijemni za sport
+      - kada je prijemni za ffkms
+      - kada je prijemni za infromatiku
+      - kada je prijemni za softversko
+      - od kad do kad traje prijemni
+      - od kada traje prijemni
+      - do kada traje prijemni
+      - kada se organizuje polaganje prijemnog ispita 2024 godine
 
   - intent: admission_exam_submit
     examples: |
+      - da li ako se prijavi moze i da se odustane
+      - mogu li opet da dobijem taj mejl vec sam se prijavio
       - kako mogu da se prijavim za prijemni
       - kako se prijaviti za prijemni ispit
       - kako ide prijava za prijemni
@@ -164,6 +177,7 @@ nlu:
 
   - intent: admission_exam_look
     examples: |
+      - prijemni ispit
       - od cega se sastoji prijemni ispit
       - kako izgleda prijemni ispit
       - sta je sve na prijemnom ispitu
@@ -343,6 +357,7 @@ nlu:
       - do kada je moguce upisati
       - kada mozemo upisati
       - kad upis pocinje
+      - kada se upisuje na fakultet
       - kada upisati
       - do kad mogu upisati
       - kada krece upis na racunarske nauke
@@ -363,6 +378,7 @@ nlu:
     examples: |
       - koja je dokumntacija potrebna za upis
       - sta je sve potrebno za upis
+      - sta je potrebno od dokumenata
       - kakva dokumenta su mi potrebna za upis
       - sta mi treba za upis
       - sta mi od dokumenata treba za upis
@@ -995,6 +1011,7 @@ nlu:
 
   - intent: kada_je_koji_rok
     examples: |
+      - kada su vam rokovi
       - kada je koji ispiti rok
       - gde mogu videti kada je koji rok
       - kada koji rok traje
